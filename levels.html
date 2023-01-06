@@ -32,7 +32,7 @@
             -ms-flex-direction: column;
             flex-direction: column;
             background: #f0e7e7;
-            margin: 100px auto 0px auto;
+            margin: 100px 20px 0px 20px;
             border-radius: 10px;
             padding: 20px;
             max-width: 800px;
@@ -102,7 +102,8 @@
             align-items: center;
             margin-top: 20px;
         }
-          @media (min-width:350px)and (max-width:500px) {
+        
+        @media (min-width:350px)and (max-width:500px) {
             .submit {
                 font-size: 15px;
                 margin-left: 30%;
@@ -123,15 +124,46 @@
                 font-size: 53px;
                 transition: 2s ease all;
             }
+            .title1 {
+                margin-top: 50px;
+                margin-bottom: 100px;
+                font-size: 2rem;
+                font-weight: bold;
+                text-align: center;
+                color: #007bff;
+            }
+            .title1 img {
+                width: 50px;
+                height: 50px;
+            }
+        }
+        
+        .title1 {
+            margin-top: 30px;
+            margin-bottom: 40px;
+            font-size: 4rem;
+            font-weight: bold;
+            text-align: center;
+            color: #000000;
+        }
+        
+        .title1 img {
+            width: 80px;
+            height: 70px;
         }
     </style>
 </head>
 
 <body>
+    <div class="title1">
+        <marquee width="60%" direction="right" height="100px"> The International Arab Office for Translation &#38 Services
+            <img src="images/mainLogo.png" alt=""> المكتب العربي الدولي للترجمة والخدمات
+        </marquee>
+    </div>
     <div class="container">
 
         <i id='sun' class="fa-regular fa-sun"></i><i id='moon' class="fa-regular fa-moon"></i>
-        <div class="title">Enter Your Level</div>
+        <div class="title">أختار مستواك</div>
         <button id='VA' class="submit">Venture A</button>
         <button id='OneA' class="submit">Level 1A</button>
         <button id='TwoA' class="submit">Level 2A</button>
