@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Placement Test</title>
+
+    <!-- css file link -->
+    <link rel="stylesheet" href="css/quiz.css">
+</head>
+
+<body>
+    <!-- <img src="logo.png" alt="img" id="img" class="img"> -->
+    <p id="title">Placement Test </p>
+    <img src="images/logo.png" alt="" class="mainLogo">
+
+    <button id="close">إغلاق</button>
+
+    <div class="count">
+        <div id="timer"></div>
+    </div>
+    <iframe src="demo_iframe.htm" class="iframe" name="iframe_a" title="Iframe Example"></iframe>
+    <!-- quiz-container -->
+    <div id="quiz-container">
+        <!-- question container -->
+        <div class="questions">
+            <p id="main"></p>
+            <p id="desc"></p>
+            <div class="audio" style="border: 1px solid red;">
+                <audio controls>
+
+                        <source src="audio/audio.mpeg" type="audio/mpeg" id="song">
+                    </audio>
+            </div>
+
+            <h2 id="question"></h2>
+            <ol type="A">
+                <li class="option"><span id="option0" onclick="calcScore(this)"></span></li>
+                <li class="option"><span id="option1" onclick="calcScore(this)"></span></li>
+                <li class="option"><span id="option2" onclick="calcScore(this)"></span></li>
+
+            </ol>
+            <h4 id="stat"></h4>
+        </div>
+
+        <div class="buttons">
+            <button type="button" class="previous">Previous</button>
+
+            <button type="button" class="next">Next</button>
+        </div>
+    </div>
+    <!-- scoreboard section -->
+    <div id="scoreboard">
+        <img src="images/logo.png" alt="" width="120px" height="120px">
+        <h2 id="score-title">You Have Done</h2>
+        <h2 id="score" hidden></h2>
+        <form action="" id="myForm">
+            <input id="number" type="numric" hidden value="772537138" placeholder="phone 966506666666">
+            <input id="name" type="text" dir="rtl" class="contact__input" placeholder="ادخل اسمك الكامل هنا">
+            <input id="msg" type="text" placeholder="type msg" hidden>
+            <button onclick="send_handle()" class="saveBtn">إرسال</button>
+        </form>
+        <p id="msg1" style="direction: rtl;"></p>
+        <!-- <button type="button" id="check-answer" onclick="checkAnswer()">Check Answers</button> -->
+    </div>
+    <!-- answers section -->
+
+
+    <!-- javascript file source -->
+    <script src="js/quiz2A.js"></script>
+</body>
+
+</html>
