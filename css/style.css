@@ -1,151 +1,186 @@
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-family: ubuntu;
-}
-
-body {
-    background: linear-gradient(150deg, #71b7e6, #9b59b6);
-}
-
-.info_box #msg {
-    text-align: center;
-    color: red;
-    font-size: larger;
-}
-
-.title1 {
-    margin-top: 10px;
-    margin-bottom: 10px;
-    font-size: 2rem;
-    display: block;
-    font-weight: bold;
-    color: #000000;
-    direction: rtl;
-}
-
-.title1 marquee {
-    text-align: center;
-    padding: 10px;
-}
-
-.title1 marquee span {
-    text-align: center;
-    margin-right: 100px;
-}
-
-.start_btn,
-.info_box,
-.quiz_box,
-.result_box {
-    position: relative;
-    display: flex;
-    -webkit-flex-direction: column;
-    -ms-flex-direction: column;
-    flex-direction: column;
-    background-color: #eeeef1;
-    margin: 100px 40px 0px 200px;
-    border-radius: 10px;
-    padding: 20px;
-    max-width: 800px;
-    font-size: 50px;
-    color: #2994db;
-    box-shadow: 0px 3px #71b7e6;
-    font-weight: 600;
-    transition: .8s ease all;
-    margin-bottom: 30px;
-    direction: rtl;
-}
-
-.info_box .info_title {
-    height: 60px;
-    width: 100%;
-    border-bottom: 1px solid #000;
-    display: flex;
-    align-items: center;
-    padding: 0 30px;
-    font-size: 20px;
-    font-weight: 600;
-}
-
-.info_box .info_list {
-    padding: 15px 35px;
-}
-
-.info_box .info_list .info {
-    direction: rtl;
-    margin: 6px 0;
-    font-size: 17px;
-}
-
-.info_box .info_list .info span {
-    font-weight: 600;
-    color: #007bff;
-}
-
-.info_box .buttons {
-    height: 60px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    padding: 0 35px;
-    background-color: #eeeef1;
-    border-top: 1px solid #000;
-}
-
-.buttons button.restart {
-    border: 2px solid #71b7e6;
-    border-radius: 5px;
-    height: 40px;
-    width: 100px;
-    color: #71b7e6;
-    font-weight: bold;
-    background: #eeeef1;
-}
-
-.buttons button.restart:hover {
-    background: #71b7e6;
-    color: #fff;
-}
-
-@media (min-width:350px)and (max-width:500px) {
-    .title {
-        margin-top: 50px;
-        margin-bottom: 100px;
-        font-size: 2rem;
-        font-weight: bold;
-        text-align: center;
-        color: #007bff;
-    }
-    .title img {
-        width: 50px;
-        height: 50px;
-    }
-    .start_btn,
-    .info_box,
-    .quiz_box,
-    .result_box {
-        margin: 50px 10px 0px 10px;
-        border-radius: 10px;
-        padding: 20px;
-        max-width: 800px;
-        margin-bottom: 100px;
-    }
-    .title1 {
-        margin-top: 10px;
-        margin-bottom: 1px;
-        font-size: 20px;
-        font-weight: bold;
-        text-align: center;
-        color: #000;
-    }
-    .title1 marquee {
-        text-align: center;
-        padding: 10px;
-    }
-    .title1 marquee span {
-        text-align: center;
-        margin-right: 200px;
-    }
-}
+                                   :root {
+                                      --var1: #fff;
+                                      --var2: #eeeef1;
+                                      --var3: #000;
+                                      --var4: #9b59b6;
+                                  }
+                                  
+                                  * {
+                                      margin: 0;
+                                      padding: 0;
+                                      box-sizing: border-box;
+                                      font-family: ubuntu;
+                                  }
+                                  
+                                  body {
+                                      background: linear-gradient(150deg, #71b7e6, #9b59b6);
+                                  }
+                                  
+                                  .info_box #msg {
+                                      text-align: center;
+                                      color: red;
+                                      font-size: larger;
+                                  }
+                                  
+                                  .title1 {
+                                      margin-top: 10px;
+                                      margin-bottom: 10px;
+                                      font-size: 2rem;
+                                      display: block;
+                                      font-weight: bold;
+                                      color: #000000;
+                                      direction: rtl;
+                                  }
+                                  
+                                  .title1 marquee {
+                                      text-align: center;
+                                      padding: 10px;
+                                  }
+                                  
+                                  .title1 marquee span {
+                                      text-align: center;
+                                      margin-right: 100px;
+                                  }
+                                  
+                                  i {
+                                      position: absolute;
+                                      left: 3%;
+                                      top: 3%;
+                                      color: #71b7e6;
+                                      font-size: 43px;
+                                      transition: 2s ease all;
+                                  }
+                                  
+                                  i:hover {
+                                      color: #9659b6;
+                                  }
+                                  
+                                  #sun {
+                                      transition: .8s ease all;
+                                  }
+                                  
+                                  #moon {
+                                      transition: .8s ease all;
+                                      display: none;
+                                  }
+                                  
+                                  .start_btn,
+                                  .info_box,
+                                  .quiz_box,
+                                  .result_box {
+                                      position: relative;
+                                      display: flex;
+                                      -webkit-flex-direction: column;
+                                      -ms-flex-direction: column;
+                                      flex-direction: column;
+                                      background-color: var(--var2);
+                                      margin: 100px 40px 0px 200px;
+                                      border-radius: 10px;
+                                      padding: 20px;
+                                      max-width: 800px;
+                                      font-size: 50px;
+                                      color: #2994db;
+                                      box-shadow: 0px 3px #71b7e6;
+                                      font-weight: 600;
+                                      transition: .8s ease all;
+                                      margin-bottom: 30px;
+                                      direction: rtl;
+                                  }
+                                  
+                                  .dark {
+                                      --var1: #;
+                                      --var2: #000;
+                                      --var3: #71b7e6;
+                                  }
+                                  
+                                  .info_box .info_title {
+                                      height: 60px;
+                                      width: 100%;
+                                      border-bottom: 1px solid var(--var3);
+                                      display: flex;
+                                      align-items: center;
+                                      padding: 0 30px;
+                                      font-size: 20px;
+                                      font-weight: 600;
+                                  }
+                                  
+                                  .info_box .info_list {
+                                      padding: 15px 35px;
+                                  }
+                                  
+                                  .info_box .info_list .info {
+                                      direction: rtl;
+                                      margin: 6px 0;
+                                      font-size: 17px;
+                                  }
+                                  
+                                  .info_box .info_list .info span {
+                                      font-weight: 600;
+                                      color: #007bff;
+                                  }
+                                  
+                                  .info_box .buttons {
+                                      height: 60px;
+                                      display: flex;
+                                      justify-content: center;
+                                      align-items: center;
+                                      padding: 0 35px;
+                                      background-color: var(--var2);
+                                      border-top: 1px solid var(--var3);
+                                  }
+                                  
+                                  .buttons button.restart {
+                                      border: 2px solid #71b7e6;
+                                      border-radius: 5px;
+                                      height: 40px;
+                                      width: 100px;
+                                      color: #71b7e6;
+                                      font-weight: bold;
+                                      background: var(--var2);
+                                  }
+                                  
+                                  .buttons button.restart:hover {
+                                      background: #71b7e6;
+                                      color: #fff;
+                                  }
+                                  
+                                  @media (min-width:350px)and (max-width:500px) {
+                                      .title {
+                                          margin-top: 50px;
+                                          margin-bottom: 100px;
+                                          font-size: 2rem;
+                                          font-weight: bold;
+                                          text-align: center;
+                                          color: #007bff;
+                                      }
+                                      .title img {
+                                          width: 50px;
+                                          height: 50px;
+                                      }
+                                      .start_btn,
+                                      .info_box,
+                                      .quiz_box,
+                                      .result_box {
+                                          margin: 50px 10px 0px 10px;
+                                          border-radius: 10px;
+                                          padding: 20px;
+                                          max-width: 800px;
+                                          margin-bottom: 100px;
+                                      }
+                                      .title1 {
+                                          margin-top: 10px;
+                                          margin-bottom: 1px;
+                                          font-size: 20px;
+                                          font-weight: bold;
+                                          text-align: center;
+                                          color: #000;
+                                      }
+                                      .title1 marquee {
+                                          text-align: center;
+                                          padding: 10px;
+                                      }
+                                      .title1 marquee span {
+                                          text-align: center;
+                                          margin-right: 200px;
+                                      }
+                                  }
