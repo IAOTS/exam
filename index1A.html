@@ -3,52 +3,69 @@
 
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <script src="https://kit.fontawesome.com/841cec90a3.js" crossorigin="anonymous"></script>
-
     <title>Final Exam 1A</title>
-    <link rel="stylesheet" href="css/all.min.css">
-    <link rel="stylesheet" href="css/normalize.css">
-    <link rel="stylesheet" href="css/style.css">
+
+    <!-- css file link -->
+    <link rel="stylesheet" href="css/quiz.css">
 </head>
 
 <body>
-    <!-- Start quiz btn -->
-    <div class="title1">
-        <marquee behavior="1" direction="right"><span>المكتب العربي الدولي للترجمة والخدمات
-                </span><br>The International Arab Office for Translation &#38 Services</marquee>
+    <!-- <img src="logo.png" alt="img" id="img" class="img"> -->
+    <p id="title">Final Exam 1A</p>
+    <img src="images/logo.png" alt="" class="mainLogo">
+
+
+    <div class="count">
+        <div id="timer"></div>
     </div>
-    <!-- information nd rules box -->
-    <div class="info_box">
+    <!-- quiz-container -->
+    <div id="quiz-container">
+        <!-- question container -->
+        <div class="questions">
+            <p id="main"></p>
+            <p id="desc"></p>
+            <div id="listeningA">
+                <audio controls>
+                        <source src="audio/A1.mp3" type="audio/mp3">
+                    </audio>
+            </div>
 
-        <div class="info_title">
-            <i id='sun' class="fa-regular fa-sun"></i><i id='moon' class="fa-regular fa-moon"></i>
 
-            <span>يرجى مراعاة الملاحظات التالية قبل البدء بالإختبار:</span>
+            <h2 id="question"></h2>
+            <ol type="A">
+                <li class="option"><span id="option0" onclick="calcScore(this)"></span></li>
+                <li class="option"><span id="option1" onclick="calcScore(this)"></span></li>
+                <li class="option"><span id="option2" onclick="calcScore(this)"></span></li>
+            </ol>
+            <h4 id="stat"></h4>
         </div>
-        <div class="info_list">
-            <p class="info">1- السؤال الأول خاص لإستماع ...استمع واختار الأجابة الصحيحة بحيث أن الضغط على اي إختيار ينقلك للسؤال التالي بشكل مباشر.
-            </p>
-            </p>
-            <p class="info">2- أجب عن الأسئلة مع مراعاة الوقت المحدد لك .</p>
-            <p class="info">3- مدة الإختبار ساعة.
-            </p>
 
-            <p class="info">4-عند الإنتهاء من إجابةالاختبار قم بكتابة الاسم في صندوق الاسم نهاية الإختبار واضغط على كلمة ارسال وانتظر حتى يظهر لك أيقونة الواتس واضغط علية حتى يصل رقم كود إجاباتك للشؤون الأكاديمية وسيتم إبلاغك بدرجاتك عند إشعاركم بوقت إعلان الدرجات.</p>
-            <p class="info">5- هذا الإختبار فقط لقياس مهاراتك ومدى استيعابك للدورة لذا المصداقية مهمة .</p>
-        </div>
         <div class="buttons">
+            <button type="button" class="previous">Previous</button>
 
-            <button class="restart" id="btn">إبدأ الاختبار</button>
+            <button type="button" class="next">Next</button>
         </div>
-        <p id="msg"></p>
-
     </div>
+    <!-- scoreboard section -->
+    <div id="scoreboard">
+        <img src="images/logo.png" alt="" width="120px" height="120px">
+        <h2 id="score-title">You Have Done</h2>
+        <h2 id="score" hidden></h2>
+        <form action="" id="myForm">
+            <input id="number" type="numric" hidden value="772537138" placeholder="phone 966506666666">
+            <input id="name" type="text" dir="rtl" class="contact__input" placeholder="ادخل اسمك الكامل هنا">
+            <input id="msg" type="text" placeholder="type msg" hidden>
+            <button onclick="send_handle()" class="saveBtn">إرسال</button>
+        </form>
+        <p id="msg1" style="direction: rtl;"></p>
+        <!-- <button type="button" id="check-answer" onclick="checkAnswer()">Check Answers</button> -->
+    </div>
+    <!-- answers section -->
 
 
-    <script src="js/home1A.js"></script>
-    <script src="js/dark.js"></script>
+    <!-- javascript file source -->
+    <script src="js/quiz1A.js"></script>
 </body>
 
 </html>
