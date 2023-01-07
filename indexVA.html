@@ -15,19 +15,17 @@
     <p id="title">Placement Test </p>
     <img src="images/logo.png" alt="" class="mainLogo">
 
-    <button id="close">إغلاق</button>
 
     <div class="count">
         <div id="timer"></div>
     </div>
-    <iframe src="demo_iframe.htm" class="iframe" name="iframe_a" title="Iframe Example"></iframe>
     <!-- quiz-container -->
     <div id="quiz-container">
         <!-- question container -->
         <div class="questions">
             <p id="main"></p>
             <p id="desc"></p>
-            <div class="audio" style="border: 1px solid red;">
+            <div id="listening">
                 <audio controls>
 
                         <source src="audio/audio.mpeg" type="audio/mpeg" id="song">
@@ -39,7 +37,6 @@
                 <li class="option"><span id="option0" onclick="calcScore(this)"></span></li>
                 <li class="option"><span id="option1" onclick="calcScore(this)"></span></li>
                 <li class="option"><span id="option2" onclick="calcScore(this)"></span></li>
-
             </ol>
             <h4 id="stat"></h4>
         </div>
