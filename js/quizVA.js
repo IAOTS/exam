@@ -3,106 +3,95 @@ var questionBank = [{
 
 
         main: 'Listening',
-        desc: ' Listen. Write the words you hear.',
-        audio: '',
+        desc: ' Listen. Choose the words you hear.',
         question: 'Is your_____________there?',
-        option: [' they\'re', 'there are', ' their', 'they are'],
-        answer: 'they are'
+        option: ['mother', 'father', 'sister'],
+        answer: 'mother'
     },
     {
         main: 'Listening',
-        desc: '',
-        audio: '',
-        question: ' Where’s the_______________ ?.',
-        option: ['on', 'at', 'in', 'next'],
-        answer: 'at'
+        desc: ' Listen. Choose the words you hear.',
+        question: ' Where\’s the_______________ ?.',
+        option: ['book', 'notebook', 'pen'],
+        answer: 'notebook'
     },
     {
         main: 'Listening',
-        desc: '',
-        audio: '',
+        desc: ' Listen. Choose the words you hear.',
         question: 'Are your_________ here?',
-        option: ['And', 'So', 'Also', 'Too'],
-        answer: 'So'
+        option: ['uncle', 'cousin', 'nephew'],
+        answer: 'cousin'
     },
 
     {
         main: 'Listening',
-        desc: '',
-        audio: '',
+        desc: ' Listen. Choose the words you hear.',
         question: 'I have a bad_______________ .',
-        option: ['watching', 'watch', ' to watch', 'watched'],
-        answer: 'watching'
+        option: ['backache', 'stomach', 'stomachache'],
+        answer: 'stomachache'
     },
     {
         main: 'Listening',
-        desc: '',
-        audio: '',
+        desc: ' Listen. Choose the words you hear.',
         question: 'I sprained my__________________.',
-        option: [' The most ', 'Almost', 'All', 'Most of'],
-        answer: 'Almost'
+        option: ['ankle', 'uncle', 'hand'],
+        answer: 'ankle'
     },
     {
         main: 'Listening',
-        desc: 'Listen. Circle the letter of the sentences you hear.',
-        audio: '',
+        desc: 'Listen. Choose the letter of the sentences you hear.',
         question: '1',
-        option: [' It\’s on the sofa.', 'It\’s under the shelf.', 'It\’s on the shelf', 'excitement'],
-        answer: 'excitement'
+        option: [' It\’s on the sofa.', 'It\’s under the shelf.', 'It\’s on the shelf'],
+        answer: 'It\’s on the shelf'
+
     },
+
     {
         main: 'Listening',
-        desc: 'Listen. Circle the letter of the sentences you hear.',
-        audio: '',
+        desc: 'Listen. Choose the letter of the sentences you hear.',
         question: '2',
-        option: [' I have a fever.', ' She has the flu.', ' I have the flu.'],
-        answer: 'to see'
+        option: [' I have a fever.', 'She has the flu.', ' I have the flu.'],
+        answer: 'She has the flu.'
     },
     {
         main: 'Listening',
-        desc: 'Listen. Circle the letter of the sentences you hear.',
-        audio: '',
+        desc: 'Listen. Choose the letter of the sentences you hear.',
         question: '3',
         option: ['Yes\, she is.', 'Yes\, it is.', 'Yes\, they are.'],
-        answer: 'the cheapest'
+        answer: 'Yes\, she is.'
     },
     {
         main: 'Listening',
-        desc: 'Listen. Circle the letter of the sentences you hear.',
-        audio: '',
+        desc: 'Listen. Choose the letter of the sentences you hear.',
         question: '4',
         option: [' No\, they aren\’t.', 'Yes\, they are.', 'Yes\, we are.'],
-        answer: 'the cheapest'
+        answer: 'Yes\, they are.'
     },
     {
         main: 'Listening',
-        desc: 'Listen. Circle the letter of the sentences you hear.',
-        audio: '',
+        desc: 'Listen. Choose the letter of the sentences you hear.',
         question: '5',
         option: ['He\’s working', 'She\’s working.', 'They\’re working.'],
-        answer: 'the cheapest'
+        answer: 'He\’s working'
     },
 
     {
         main: 'Grammar',
         desc: 'Choose the correct word.',
-        audio: '',
         question: '_________he from Russia?',
-        option: ['Does', 'Is', ''],
-        answer: 'Does'
+        option: ['Does', 'Is', 'DO'],
+        answer: 'Is'
     },
     {
         main: 'Grammar',
         desc: 'Choose the correct word.',
-        audio: '',
         question: ' The maps are______the table.',
-        option: ['on', 'in', ''],
+        option: ['on', 'in', 'in front'],
         answer: 'on'
     },
     {
         main: 'Grammar',
         desc: 'Choose the correct word.',
-        audio: '',
         question: 'Are you_________?',
         option: ['study', 'studying', 'studies'],
         answer: 'studying'
@@ -110,44 +99,91 @@ var questionBank = [{
     {
         main: 'Grammar',
         desc: 'Choose the correct word.',
-        audio: '',
         question: '_________Mrs. Jones have a backache?',
-        option: ['Do', 'Does', 'Did'],
+        option: ['Do', 'Does', 'IS'],
 
         answer: 'Does'
     },
     {
         main: 'Grammar',
         desc: 'Choose the correct word.',
-        audio: '',
         question: ' Go two blocks.____________left.',
-        option: ['Turn', 'Turning', 'Turned'],
+        option: ['Turn', 'Turning', 'Turns'],
         answer: 'Turn'
     },
     {
         main: 'Grammar',
-        desc: 'Match the questions with the answers',
-        audio: '',
-        question: 'Where are they from?______',
-        option: ['They\'re on the table', 'They\'re from china', 'Yes\,they do.'],
+        desc: 'Choose the suitable answer for each question.',
+        question: 'Where are they from?',
+        option: ['They\'re from china', 'They\'re on the table', 'They\'re students'],
         answer: 'They\'re from china'
     },
     {
         main: 'Grammar',
-        desc: 'Match the questions with the answers',
-        audio: '',
-        question: 'Are they eating?______',
-        option: ['They\'re on the table', 'They\'re from china', 'Yes\,they are.'],
-        answer: 'Yes\,they are.'
+        desc: 'Choose the suitable answer for each question.',
+        question: 'Are they eating?',
+        option: ['Yes, it is.', 'Yes\, they are.', 'Yes\,we are.'],
+        answer: 'Yes\, they are.'
     },
     {
         main: 'Grammar',
-        desc: 'where are the erasers?______',
-        audio: '',
-        question: 'Are they eating?______',
-        option: ['They\'re on the table', 'They\'re from china', 'Yes\,they are.'],
+        desc: 'Choose the suitable answer for each question.',
+        question: 'What are they doing?',
+        option: ['They\'re taking a break', 'Yes, they do.', 'They\'re on the table.'],
+        answer: 'They\'re taking a break'
+    },
+    {
+        main: 'Grammar',
+        desc: 'Choose the suitable answer for each question.',
+        question: 'Do they have stomachaches?',
+        option: ['Yes, they have', 'Yes, they are',
+            'Yes, they do.'
+        ],
+        answer: 'Yes, they do.'
+    },
+    {
+        main: 'Grammar',
+        desc: 'Choose the suitable answer for each question.',
+        question: 'Where are the erasers?',
+        option: ['They\'re on the table', 'It\'s on the table', 'Yes, they are'],
         answer: 'They\'re on the table'
-    }
+    },
+    {
+        main: 'Reading',
+        desc: 'Read the passage . Then read the following questions and circle the correct answer.Tom Kent is a teacher.He is 40 years old.His wife is a doctor,and she is 36 years old.They have three children.Their names are Anthony, Kate and Susan.Anthony is eleven years old,Kate is eight years old,and Susan is the baby of the family.She is four years.',
+        question: 'What is their last name? ',
+        option: ['Abby', 'Kent', 'Parents'],
+        answer: 'Kent'
+    },
+    {
+        main: 'Reading',
+        desc: 'Read the passage . Then read the following questions and circle the correct answer.Tom Kent is a teacher.He is 40 years old.His wife is a doctor,and she is 36 years old.They have three children.Their names are Anthony, Kate and Susan.Anthony is eleven years old,Kate is eight years old,and Susan is the baby of the family.She is four years.',
+        question: 'How many children do Tom and Abby have?',
+        option: ['1', '2', '3'],
+        answer: '3'
+    },
+    {
+        main: 'Reading',
+        desc: 'Read the passage . Then read the following questions and circle the correct answer.Tom Kent is a teacher.He is 40 years old.His wife is a doctor,and she is 36 years old.They have three children.Their names are Anthony, Kate and Susan.Anthony is eleven years old,Kate is eight years old,and Susan is the baby of the family.She is four years.',
+        question: 'How many daughters do they have?',
+        option: ['1', '2', '3'],
+        answer: '2'
+    },
+    {
+        main: 'Reading',
+        desc: 'Read the passage . Then read the following questions and circle the correct answer.Tom Kent is a teacher.He is 40 years old.His wife is a doctor,and she is 36 years old.They have three children.Their names are Anthony, Kate and Susan.Anthony is eleven years old,Kate is eight years old,and Susan is the baby of the family.She is four years.',
+        question: 'Who is four years old?',
+        option: ['Abby', 'Anthony', 'Susan'],
+        answer: 'Susan'
+    },
+    {
+        main: 'Reading',
+        desc: 'Read the passage . Then read the following questions and circle the correct answer.Tom Kent is a teacher.He is 40 years old.His wife is a doctor,and she is 36 years old.They have three children.Their names are Anthony, Kate and Susan.Anthony is eleven years old,Kate is eight years old,and Susan is the baby of the family.She is four years.',
+        question: 'Who is Tom\’s son?',
+        option: ['Abby', 'Anthony', 'kate'],
+        answer: 'Anthony'
+    },
+
 ]
 
 var question = document.getElementById('question');
@@ -155,7 +191,7 @@ var quizContainer = document.getElementById('quiz-container');
 var scorecard = document.getElementById('scorecard');
 var main = document.getElementById('main');
 var desc = document.getElementById('desc');
-var audio = document.getElementById('song');
+
 var option0 = document.getElementById('option0');
 var option1 = document.getElementById('option1');
 var option2 = document.getElementById('option2');
@@ -165,7 +201,8 @@ var previous = document.querySelector('.previous');
 var points = document.getElementById('score');
 var span = document.querySelectorAll('span');
 var stat = document.querySelector('#stat');
-var audio1 = document.getElementById('listening');
+var AudioA = document.getElementById('listeningA');
+var AudioB = document.getElementById('listeningB');
 var i = 0;
 var score = 0;
 
@@ -178,15 +215,15 @@ function displayQuestion() {
 
     main.innerHTML = '' + questionBank[i].main;
     desc.innerHTML = '' + questionBank[i].desc;
-    audio.innerHTML = '' + questionBank[i].audio;
     question.innerHTML = 'Q.' + (i + 1) + ' ' + questionBank[i].question;
-    if (i === 1) {
-        audio1.style.display = "none";
+    if (i === 4) {
+        AudioA.style.display = "none";
+        AudioB.style.display = "block";
+
     }
     option0.innerHTML = questionBank[i].option[0];
     option1.innerHTML = questionBank[i].option[1];
     option2.innerHTML = questionBank[i].option[2];
-    option3.innerHTML = questionBank[i].option[3];
     stat.innerHTML = "Question" + ' ' + (i + 1) + ' ' + 'of' + ' ' + questionBank.length;
 
 }
@@ -219,8 +256,9 @@ function nextQuestion() {
 function previousQuestion() {
     if (i <= questionBank.length - 1) {
         i = i - 1;
-        if (i === 0) {
-            audio1.style.display = "block";
+        if (i <= 4) {
+            AudioA.style.display = "block";
+            AudioB.style.display = "none";
         }
         displayQuestion();
     }
