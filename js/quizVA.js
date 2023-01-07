@@ -221,6 +221,11 @@ function displayQuestion() {
         AudioB.style.display = "block";
 
     }
+          else if (i === 10) {
+        AudioB.style.display = "none";
+
+
+    }
     option0.innerHTML = questionBank[i].option[0];
     option1.innerHTML = questionBank[i].option[1];
     option2.innerHTML = questionBank[i].option[2];
@@ -259,6 +264,11 @@ function previousQuestion() {
         if (i <= 4) {
             AudioA.style.display = "block";
             AudioB.style.display = "none";
+        }
+             else if (i <= 10) {
+            AudioB.style.display = "block";
+
+
         }
         displayQuestion();
     }
