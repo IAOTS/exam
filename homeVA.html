@@ -5,9 +5,9 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <script src="https://kit.fontawesome.com/841cec90a3.js" crossorigin="anonymous"></script>
+    <script src="https://kit.fontawesome.com/841cec90a3.js" crossorigin="anonymous"></script>
 
-    <title>Placement Test</title>
+    <title>Final Exam 1A</title>
     <link rel="stylesheet" href="css/all.min.css">
     <link rel="stylesheet" href="css/normalize.css">
     <link rel="stylesheet" href="css/style.css">
@@ -23,20 +23,20 @@
     <div class="info_box">
 
         <div class="info_title">
-                        <i id='sun' class="fa-regular fa-sun"></i><i id='moon' class="fa-regular fa-moon"></i>
+            <i id='sun' class="fa-regular fa-sun"></i><i id='moon' class="fa-regular fa-moon"></i>
 
             <span>يرجى مراعاة الملاحظات التالية قبل البدء بالإختبار:</span>
         </div>
         <div class="info_list">
-            <p class="info">1- إختبار تحديد المستوى هو لك حتى يتم إضافتك بالمستوى الذي يناسبك؛ لذا مصداقية الحل مهمة.
+            <p class="info">1- السؤال الأول خاص لإستماع ...استمع واختار الأجابة الصحيحة بحيث أن الضغط على اي إختيار ينقلك للسؤال التالي بشكل مباشر.
             </p>
             </p>
-            <p class="info">2- سيكون هناك 60 دقيقة من الوقت للإختبار.</p>
-            <p class="info">3- تجنب تحديث الصفحة لأن ذلك سيرجعك إلى بداية الإختبار مما يؤدي إلى ضياع وقتك.
+            <p class="info">2- أجب عن الأسئلة مع مراعاة الوقت المحدد لك .</p>
+            <p class="info">3- مدة الإختبار ساعة.
             </p>
 
-            <p class="info">4-يجب فقط إختيار إجابة واحدة وعدم تكرارها.</p>
-            <p class="info">5- يجب عليك عدم الخروج من الإختبارأثناءالإ جابة على الأسئلة.</p>
+            <p class="info">4-عند الإنتهاء من إجابةالاختبار قم بكتابة الاسم في صندوق الاسم نهاية الإختبار واضغط على كلمة ارسال وانتظر حتى يظهر لك أيقونة الواتس واضغط علية حتى يصل رقم كود إجاباتك للشؤون الأكاديمية وسيتم إبلاغك بدرجاتك عند إشعاركم بوقت إعلان الدرجات.</p>
+            <p class="info">5- هذا الإختبار فقط لقياس مهاراتك ومدى استيعابك للدورة لذا المصداقية مهمة .</p>
         </div>
         <div class="buttons">
 
@@ -48,18 +48,7 @@
 
 
     <script src="js/homeVA.js"></script>
-        <script>
-        document.querySelector('#sun').onclick = () => {
-            document.querySelector('.info_box').classList.add('dark');
-            document.querySelector('#sun').style.display = 'none';
-            document.querySelector('#moon').style.display = 'block';
-        }
-        document.querySelector('#moon').onclick = () => {
-            document.querySelector('.info_box').classList.remove('dark');
-            document.querySelector('#sun').style.display = 'block';
-            document.querySelector('#moon').style.display = 'none';
-        }
-    </script>
+    <script src="js/dark.js"></script>
 </body>
 
 </html>
