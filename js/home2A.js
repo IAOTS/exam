@@ -11,9 +11,4 @@
            }
 
        }
-       var note = document.getElementById("TestNotes");
-       note.onclick = function() {
-           document.getElementById("notes").style.display = "block";
-
-
-       }
+ 
