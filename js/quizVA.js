@@ -216,7 +216,7 @@ function displayQuestion() {
     main.innerHTML = '' + questionBank[i].main;
     desc.innerHTML = '' + questionBank[i].desc;
     question.innerHTML = 'Q.' + (i + 1) + ' ' + questionBank[i].question;
-    if (i === 4) {
+    if (i === 5) {
         AudioA.style.display = "none";
         AudioB.style.display = "block";
 
@@ -261,7 +261,7 @@ function nextQuestion() {
 function previousQuestion() {
     if (i <= questionBank.length - 1) {
         i = i - 1;
-        if (i <= 4) {
+        if (i <= 5) {
             AudioA.style.display = "block";
             AudioB.style.display = "none";
         }
