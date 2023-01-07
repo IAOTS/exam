@@ -3,151 +3,281 @@ var questionBank = [{
 
 
         main: 'Listening',
-        desc: ' Listen. Write the words you hear.',
-        audio: '',
-        question: 'Is your_____________there?',
-        option: [' they\'re', 'there are', ' their', 'they are'],
-        answer: 'they are'
+        desc: ' Listen to the people talking. Choose the correct answer.',
+        question: 'The woman spells her name _____',
+        option: ['L-O-U-I-S-A', ' L-U-I-S-A', 'L-U-S-I-A'],
+        answer: 'L-U-S-I-A'
     },
     {
         main: 'Listening',
-        desc: '',
-        audio: '',
-        question: ' Where’s the_______________ ?.',
-        option: ['on', 'at', 'in', 'next'],
-        answer: 'at'
+        desc: ' Listen to the people talking. Choose the correct answer.',
+        question: ' Her name is _____ .',
+        option: ['Spanish', 'American', 'Italian'],
+        answer: 'Italian'
     },
     {
         main: 'Listening',
-        desc: '',
-        audio: '',
-        question: 'Are your_________ here?',
-        option: ['And', 'So', 'Also', 'Too'],
-        answer: 'So'
+        desc: ' Listen to the people talking. Choose the correct answer.',
+        question: 'There\’s no _____ in the kitchen.',
+        option: ['stove', 'microwave oven', 'refrigerator'],
+        answer: 'microwave oven'
     },
 
     {
         main: 'Listening',
-        desc: '',
-        audio: '',
-        question: 'I have a bad_______________ .',
-        option: ['watching', 'watch', ' to watch', 'watched'],
-        answer: 'watching'
+        desc: ' Listen to the people talking. Choose the correct answer.',
+        question: 'Michael\’s apartment doesn\’t have _____ .',
+        option: ['a view', 'a yard', 'a nice kitchen'],
+        answer: 'a view'
     },
     {
-        main: 'Listening',
-        desc: '',
-        audio: '',
-        question: 'I sprained my__________________.',
-        option: [' The most ', 'Almost', 'All', 'Most of'],
-        answer: 'Almost'
+        main: 'Grammar',
+        desc: 'Complete the conversation. Use the correct form of be.',
+        question: 'Jack: Excuse me. _________________ you Isabel?',
+        option: ['Are', 'Am', 'Is'],
+        answer: 'Are'
     },
     {
-        main: 'Listening',
-        desc: 'Listen. Circle the letter of the sentences you hear.',
-        audio: '',
-        question: '1',
-        option: [' It\’s on the sofa.', 'It\’s under the shelf.', 'It\’s on the shelf', 'excitement'],
-        answer: 'excitement'
-    },
-    {
-        main: 'Listening',
-        desc: 'Listen. Circle the letter of the sentences you hear.',
-        audio: '',
-        question: '2',
-        option: [' I have a fever.', ' She has the flu.', ' I have the flu.'],
-        answer: 'to see'
-    },
-    {
-        main: 'Listening',
-        desc: 'Listen. Circle the letter of the sentences you hear.',
-        audio: '',
-        question: '3',
-        option: ['Yes\, she is.', 'Yes\, it is.', 'Yes\, they are.'],
-        answer: 'the cheapest'
-    },
-    {
-        main: 'Listening',
-        desc: 'Listen. Circle the letter of the sentences you hear.',
-        audio: '',
-        question: '4',
-        option: [' No\, they aren\’t.', 'Yes\, they are.', 'Yes\, we are.'],
-        answer: 'the cheapest'
-    },
-    {
-        main: 'Listening',
-        desc: 'Listen. Circle the letter of the sentences you hear.',
-        audio: '',
-        question: '5',
-        option: ['He\’s working', 'She\’s working.', 'They\’re working.'],
-        answer: 'the cheapest'
-    },
+        main: 'Grammar',
+        desc: 'Complete the conversation. Use the correct form of be.',
+        question: 'Isabel: Yes, I _________________ .',
+        option: ['is', 'am', 'are'],
+        answer: 'am'
 
-    {
-        main: 'Grammar',
-        desc: 'Choose the correct word.',
-        audio: '',
-        question: '_________he from Russia?',
-        option: ['Does', 'Is', ''],
-        answer: 'Does'
     },
     {
         main: 'Grammar',
-        desc: 'Choose the correct word.',
-        audio: '',
-        question: ' The maps are______the table.',
-        option: ['on', 'in', ''],
+        desc: 'Complete the conversation. Use the correct form of be.',
+        question: 'Jack: _________________ your family from Mexico?',
+        option: ['Is', 'Am', 'Are'],
+        answer: 'Is'
+
+    },
+    {
+        main: 'Grammar',
+        desc: 'Complete the conversation. Use the correct form of be.',
+        question: 'Isabel: No. We _________________ from Brazil.',
+        option: ['are', 'is', 'am'],
+        answer: 'are'
+
+    },
+    {
+        main: 'Grammar',
+        desc: 'Complete the conversation. Use the correct form of be.',
+        question: 'Jack: What _________________ your first language, Isabel?',
+        option: ['am', 'are', 'is'],
+        answer: 'is'
+
+    },
+    {
+        main: 'Grammar',
+        desc: 'Complete the conversation. Use the correct form of be.',
+        question: 'Isabel: It _________________ Portuguese.',
+        option: ['is', 'am', 'are'],
+        answer: 'is'
+
+    },
+    {
+        main: 'Grammar',
+        desc: 'Choose the correct words to complete the sentences.',
+        question: 'Robert is handsome. He\’s very _________ .',
+        option: ['friendly', 'good-looking', 'serious'],
+        answer: 'good-looking'
+    },
+    {
+        main: 'Grammar',
+        desc: 'Choose the correct words to complete the sentences.',
+        question: 'Anne works in a store, and she handles money. She\’s a _________ .',
+        option: ['cashier', 'pilot', 'musician'],
+        answer: 'cashier'
+    },
+    {
+        main: 'Grammar',
+        desc: 'Choose the correct words to complete the sentences.',
+        question: 'Mia doesn\’t like her job. It\’s very _________ .',
+        option: ['interesting', 'exciting', 'boring'],
+        answer: 'boring'
+    },
+    {
+        main: 'Grammar',
+        desc: 'Choose the correct words to complete the sentences.',
+        question: 'Mario is Celia\’s father. Celia is Mario\’s _________ .',
+        option: ['wife', 'daughter', 'sister'],
+        answer: 'daughter'
+    },
+    {
+        main: 'Grammar',
+        desc: 'Choose the correct words to complete the sentences.',
+        question: 'It\’s 10:00 A.M., and Zachary is sleeping. He gets up late _________ Saturdays.',
+        option: ['at', 'on', 'in'],
         answer: 'on'
     },
     {
         main: 'Grammar',
-        desc: 'Choose the correct word.',
-        audio: '',
-        question: 'Are you_________?',
-        option: ['study', 'studying', 'studies'],
-        answer: 'studying'
+        desc: 'Choose the correct words.',
+        question: 'It\’s cold today, _______________ it\’s very windy.',
+        option: ['and', 'but', 'so'],
+        answer: 'and'
     },
     {
         main: 'Grammar',
-        desc: 'Choose the correct word.',
-        audio: '',
-        question: '_________Mrs. Jones have a backache?',
-        option: ['Do', 'Does', 'Did'],
-
-        answer: 'Does'
+        desc: 'Choose the correct words.',
+        question: 'It\’s noon, ________ we\’re eating lunch.',
+        option: ['and', 'but', 'so'],
+        answer: 'so'
     },
     {
         main: 'Grammar',
-        desc: 'Choose the correct word.',
-        audio: '',
-        question: ' Go two blocks.____________left.',
-        option: ['Turn', 'Turning', 'Turned'],
-        answer: 'Turn'
+        desc: 'Choose the correct words.',
+        question: 'John is wearing shoes, ________ he isn\’t wearing socks.',
+        option: ['and', 'but', 'so'],
+        answer: 'but'
     },
     {
         main: 'Grammar',
-        desc: 'Match the questions with the answers',
-        audio: '',
-        question: 'Where are they from?______',
-        option: ['They\'re on the table', 'They\'re from china', 'Yes\,they do.'],
-        answer: 'They\'re from china'
+        desc: 'Choose the missing questions.',
+        question: 'A:______________________________________ ?B: I\’m fine,thanks.',
+        option: ['How are you?', 'How old are you ?', 'Where are you ?'],
+        answer: 'How are you?'
     },
     {
         main: 'Grammar',
-        desc: 'Match the questions with the answers',
-        audio: '',
-        question: 'Are they eating?______',
-        option: ['They\'re on the table', 'They\'re from china', 'Yes\,they are.'],
-        answer: 'Yes\,they are.'
+        desc: 'Choose the missing questions.',
+        question: 'A:______________________________________ ?B: I\’m 28 years old.',
+        option: ['How are you?', 'How old are you?', 'How many brothers do you have?'],
+        answer: 'How old are you?'
     },
     {
         main: 'Grammar',
-        desc: 'where are the erasers?______',
-        audio: '',
-        question: 'Are they eating?______',
-        option: ['They\'re on the table', 'They\'re from china', 'Yes\,they are.'],
-        answer: 'They\'re on the table'
-    }
+        desc: 'Choose the missing questions.',
+        question: 'A:______________________________________ ?B: I\’m a salesperson.',
+        option: ['What does your sister do?',
+            'What do you do?',
+            'Where are you from?'
+        ],
+        answer: 'What do you do?'
+    },
+    {
+        main: 'Grammar',
+        desc: 'Choose the missing questions.',
+        question: 'A:______________________________________ ?B: I work in shoe store.',
+        option: [
+            'Where do you work?',
+            'When do you work ?',
+            'How do you work ?'
+        ],
+        answer: 'Where do you work?'
+    },
+    {
+        main: 'Grammar',
+        desc: 'Choose the correct responses',
+        question: 'A: Have a nice day. B: __________',
+        option: [
+            'It\’s nice to meet you.',
+            'Not bad, thanks.',
+            'OK. See you later.'
+        ],
+        answer: 'OK. See you later.'
+    },
+    {
+        main: 'Grammar',
+        desc: 'Choose the correct responses',
+        question: 'A: What\’s Marta like? B: __________',
+        option: [
+            'She\’s from Mexico.',
+            'She\’s very nice.',
+            'She\’s eighteen.'
+        ],
+        answer: 'She\’s very nice.'
+    },
+    {
+        main: 'Grammar',
+        desc: 'Choose the correct responses',
+        question: 'A: I need a pen. B: __________',
+        option: [
+            'Let me see. Yes, it is.',
+            'No problem. Thank you.',
+            'There\’s a pen on the desk.'
+        ],
+        answer: 'There’s a pen on the desk.'
+    },
+    {
+        main: 'Grammar',
+        desc: 'Choose the correct responses',
+        question: 'A: When do you study?        B: __________ ',
+        option: [
+            'Yes, a lot.',
+            'At school.',
+            'In the evening.'
+        ],
+        answer: 'In the evening.'
+    },
+    {
+        main: 'Grammar',
+        desc: 'Choose the correct responses',
+        question: 'A: Where are my keys? B: __________ ',
+        option: [
+            'They\’re under your hat.',
+            'It\’s on your briefcase.',
+            'There are three.'
+        ],
+        answer: 'They\’re under your hat.'
+    },
+    {
+        main: 'Grammar',
+        desc: 'Choose the correct form of the verb to complete the conversations.',
+        question: 'A: Where do you live?  B: I _____________ in the suburbs with my family.',
+        option: [
+            'live',
+            'lives',
+            'living'
+        ],
+        answer: 'live'
+    },
+    {
+        main: 'Grammar',
+        desc: 'Choose the correct form of the verb to complete the conversations.',
+        question: 'A: Do you _____________ any children?  B: Yes,we have two children.',
+        option: [
+            'has',
+            'have',
+            'are'
+        ],
+        answer: 'have'
+    },
+    {
+        main: 'Grammar',
+        desc: 'Choose the correct form of the verb to complete the conversations.',
+        question: 'A: Do you drive to work?  B: No,I _____________.I take the bus.',
+        option: [
+            'do not',
+            'does not',
+            'am not'
+        ],
+        answer: 'do not'
+    },
+    {
+        main: 'Grammar',
+        desc: 'Choose the correct form of the verb to complete the conversations.',
+        question: 'A: Does your wife _____________ ? B: Yes,she works in a hospital.',
+        option: [
+            'work',
+            'works',
+            'working'
+        ],
+        answer: 'work'
+    },
+    {
+        main: 'Grammar',
+        desc: 'Choose the correct form of the verb to complete the conversations.',
+        question: 'A: What does she _____________ ?B: She\’ s a nurse.',
+        option: [
+            'do',
+            'does',
+            'doing'
+        ],
+        answer: 'do'
+    },
 ]
 
 var question = document.getElementById('question');
@@ -155,7 +285,7 @@ var quizContainer = document.getElementById('quiz-container');
 var scorecard = document.getElementById('scorecard');
 var main = document.getElementById('main');
 var desc = document.getElementById('desc');
-var audio = document.getElementById('song');
+
 var option0 = document.getElementById('option0');
 var option1 = document.getElementById('option1');
 var option2 = document.getElementById('option2');
@@ -165,7 +295,7 @@ var previous = document.querySelector('.previous');
 var points = document.getElementById('score');
 var span = document.querySelectorAll('span');
 var stat = document.querySelector('#stat');
-var audio1 = document.getElementById('listening');
+var AudioA = document.getElementById('listeningA');
 var i = 0;
 var score = 0;
 
@@ -178,10 +308,10 @@ function displayQuestion() {
 
     main.innerHTML = '' + questionBank[i].main;
     desc.innerHTML = '' + questionBank[i].desc;
-    audio.innerHTML = '' + questionBank[i].audio;
     question.innerHTML = 'Q.' + (i + 1) + ' ' + questionBank[i].question;
-    if (i === 1) {
-        audio1.style.display = "none";
+    if (i === 4) {
+        AudioA.style.display = "none";
+
     }
     option0.innerHTML = questionBank[i].option[0];
     option1.innerHTML = questionBank[i].option[1];
@@ -218,8 +348,8 @@ function nextQuestion() {
 function previousQuestion() {
     if (i <= questionBank.length - 1) {
         i = i - 1;
-        if (i === 0) {
-            audio1.style.display = "block";
+        if (i <= 4) {
+            AudioA.style.display = "block";
         }
         displayQuestion();
     }
