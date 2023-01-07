@@ -69,14 +69,7 @@ var questionBank = [{
         answer: 'is'
 
     },
-    {
-        main: 'Grammar',
-        desc: 'Complete the conversation. Use the correct form of be.',
-        question: 'Isabel: It _________________ Portuguese.',
-        option: ['is', 'am', 'are'],
-        answer: 'is'
 
-    },
     {
         main: 'Grammar',
         desc: 'Choose the correct words to complete the sentences.',
@@ -105,13 +98,7 @@ var questionBank = [{
         option: ['wife', 'daughter', 'sister'],
         answer: 'daughter'
     },
-    {
-        main: 'Grammar',
-        desc: 'Choose the correct words to complete the sentences.',
-        question: 'It\’s 10:00 A.M., and Zachary is sleeping. He gets up late _________ Saturdays.',
-        option: ['at', 'on', 'in'],
-        answer: 'on'
-    },
+
     {
         main: 'Grammar',
         desc: 'Choose the correct words.',
