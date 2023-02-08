@@ -210,6 +210,7 @@
         <button id='OneA' class="submit">Level 1A</button>
         <button id='OneB' class="submit">Level 1B</button>
         <button id='TwoA' class="submit">Level 2A</button>
+        <button id='TwoB' class="submit">Level 2B</button>
 
 
         <script>
@@ -217,6 +218,7 @@
             var OneA = document.getElementById('OneA');
             var OneB = document.getElementById('OneB');
             var TowA = document.getElementById('TwoA');
+            var TowB = document.getElementById('TwoB');
             VA.onclick = function() {
                 parent.location = 'homeVA.html';
 
@@ -231,6 +233,10 @@
             }
             TowA.onclick = function() {
                 parent.location = 'home2A.html';
+
+            }
+               TowB.onclick = function() {
+                parent.location = 'home2B.html';
 
             }
             document.querySelector('#sun').onclick = () => {
