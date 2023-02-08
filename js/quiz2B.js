@@ -173,61 +173,6 @@ var questionBank = [{
         ],
         answer: 'I used to play video games.'
     },
-    {
-        main: 'Grammar',
-        desc: 'Choose the correct word or phrase to complete each sentence.',
-        question: '1. Tom isn’t blond. His hair is very _____ .',
-        option: [
-            'straight',
-            'dark',
-            'short'
-        ],
-        answer: 'dark'
-    },
-    {
-        main: 'Grammar',
-        desc: 'Choose the correct word or phrase to complete each sentence.',
-        question: '2. I went to the drugstore yesterday and bought a tube of _____ .',
-        option: [
-            'tissues',
-            'cough drops',
-            'toothpaste'
-        ],
-        answer: 'toothpaste'
-    },
-    {
-        main: 'Grammar',
-        desc: 'Choose the correct word or phrase to complete each sentence.',
-        question: '3. Martin likes to go away on weekends. Last Saturday, he _____ his truck to the beach.',
-        option: [
-            'rode',
-            'drove',
-            'lost'
-        ],
-        answer: 'drove'
-    },
-    {
-        main: 'Grammar',
-        desc: 'Choose the correct word or phrase to complete each sentence.',
-        question: '4. I\’d like to see some of our friends. Let\’s invite Rick and Simone over to our house and have a _____ .',
-        option: [
-            'musical',
-            'barbecue',
-            'film festival'
-        ],
-        answer: 'barbecue'
-    },
-       {
-        main: 'Grammar',
-        desc: 'Choose the correct word or phrase to complete each sentence.',
-        question: '5. I wanted to change how I look, so I _____ .',
-        option: [
-            'got a credit card',
-            'started a new hobby',
-            'grew a beard'
-        ],
-        answer: 'grew a beard'
-    },
 ]
 
 var question = document.getElementById('question');
