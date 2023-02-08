@@ -208,12 +208,14 @@
         <div class="title">Choose Your Level</div>
         <button id='VA' class="submit">Venture A</button>
         <button id='OneA' class="submit">Level 1A</button>
+        <button id='OneB' class="submit">Level 1B</button>
         <button id='TwoA' class="submit">Level 2A</button>
 
 
         <script>
             var VA = document.getElementById('VA');
             var OneA = document.getElementById('OneA');
+            var OneB = document.getElementById('OneB');
             var TowA = document.getElementById('TwoA');
             VA.onclick = function() {
                 parent.location = 'homeVA.html';
@@ -221,6 +223,10 @@
             }
             OneA.onclick = function() {
                 parent.location = 'home1A.html';
+
+            }
+               OneB.onclick = function() {
+                parent.location = 'home1B.html';
 
             }
             TowA.onclick = function() {
