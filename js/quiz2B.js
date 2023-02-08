@@ -173,6 +173,62 @@ var questionBank = [{
         ],
         answer: 'I used to play video games.'
     },
+                    
+    {
+        main: 'Grammar',
+        desc: 'Chhose the correct word or phrase to complete each sentence.',
+        question: ' I forgot my wallet. Could I _________ $10? I’ll pay you back tomorrow.',
+        option: [
+            'lend',
+            'borrow',
+            'spend'
+        ],
+        answer: 'borrow'
+    },
+                        {
+        main: 'Grammar',
+        desc: 'Chhose the correct word or phrase to complete each sentence.',
+        question: 'We want to know what happened. Please _________ us the truth.',
+        option: [
+            'offer',
+            'tell',
+            'make'
+        ],
+        answer: 'tell'
+    },
+                        {
+        main: 'Grammar',
+        desc: 'Chhose the correct word or phrase to complete each sentence.',
+        question: ' If Emily says she’ll do something, she usually does. She’s a very _________ person.',
+        option: [
+            'strict',
+            'reliable',
+            'moody'
+        ],
+        answer: 'reliable'
+    },
+                        {
+        main: 'Grammar',
+        desc: 'Chhose the correct word or phrase to complete each sentence.',
+        question: 'I thought I had lost my ATM card when, _________ , I found it in my pocket.',
+        option: [
+            'luckily',
+            'unfortunately',
+            'sadly'
+        ],
+        answer: 'luckily'
+    },
+                        {
+        main: 'Grammar',
+        desc: 'Chhose the correct word or phrase to complete each sentence.',
+        question: 'Jennifer did an _________ job on her report. That\’s why she got a raise.',
+        option: [
+            'outstanding',
+            'absurd',
+            'odd'
+        ],
+        answer: 'outstanding'
+    },
 ]
 
 var question = document.getElementById('question');
