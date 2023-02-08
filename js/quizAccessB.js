@@ -257,7 +257,7 @@ function displayQuestion() {
     main.innerHTML = '' + questionBank[i].main;
     desc.innerHTML = '' + questionBank[i].desc;
     question.innerHTML = 'Q.' + (i + 1) + ' ' + questionBank[i].question;
-    if (i === 4) {
+    if (i === 5) {
         AudioA.style.display = "none";
 
     }
@@ -296,7 +296,7 @@ function nextQuestion() {
 function previousQuestion() {
     if (i <= questionBank.length - 1) {
         i = i - 1;
-        if (i <= 4) {
+        if (i <= 5) {
             AudioA.style.display = "block";
         }
         displayQuestion();
@@ -348,7 +348,7 @@ function send_handle() {
     let name = document.getElementById("name").value;
     if (name == "") {
         msg1.innerHTML = "لا يمكنك ترك الاسم فارغا";
-        parent.location = "index1A.html?#scorecard";
+        parent.location = "indexAccessB.html?#scorecard";
     } else {
         var win = open(`https://wa.me/${num}?text=أنا الطالب : ${name}%20كود الإختبار هو :9582${msg}_IAOTS`, 'self');
         // win.focus();
