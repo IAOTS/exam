@@ -4,266 +4,228 @@ var questionBank = [{
 
         main: 'Listening',
         desc: ' Listen to the people talking. Choose the correct answer.',
-        question: 'The woman spells her name _____',
-        option: ['L-O-U-I-S-A', ' L-U-I-S-A', 'L-U-S-I-A'],
-        answer: 'L-U-S-I-A'
+        question: 'Brandon _____ . ',
+        option: ['doesn\’t know Irina', 'works with Irina', 'is talking with Irina'],
+        answer: 'works with Irina'
     },
     {
         main: 'Listening',
         desc: ' Listen to the people talking. Choose the correct answer.',
-        question: ' Her name is _____ .',
-        option: ['Spanish', 'American', 'Italian'],
-        answer: 'Italian'
+        question: 'Carlos _____ .',
+        option: ['works with Brandon', 'went to high school with Brandon', 'wants to meet Irina'],
+        answer: 'went to high school with Brandon'
     },
     {
         main: 'Listening',
-        desc: ' Listen to the people talking. Choose the correct answer.',
-        question: 'There\’s no _____ in the kitchen.',
-        option: ['stove', 'microwave oven', 'refrigerator'],
-        answer: 'microwave oven'
+        desc: 'Listen to Maria talking about her plans for the future. Choose the correct answers.',
+        question: 'Maria plans to _____ .',
+        option: ['graduate soon ', 'borrow money', 'get a job'],
+        answer: 'get a job'
     },
 
     {
         main: 'Listening',
-        desc: ' Listen to the people talking. Choose the correct answer.',
-        question: 'Michael\’s apartment doesn\’t have _____ .',
-        option: ['a view', 'a yard', 'a nice kitchen'],
-        answer: 'a view'
-    },
-    {
-        main: 'Grammar',
-        desc: 'Complete the conversation. Use the correct form of be.',
-        question: 'Jack: Excuse me. _________________ you Isabel?',
-        option: ['Are', 'Am', 'Is'],
-        answer: 'Are'
-    },
-    {
-        main: 'Grammar',
-        desc: 'Complete the conversation. Use the correct form of be.',
-        question: 'Isabel: Yes, I _________________ .',
-        option: ['is', 'am', 'are'],
-        answer: 'am'
-
-    },
-    {
-        main: 'Grammar',
-        desc: 'Complete the conversation. Use the correct form of be.',
-        question: 'Jack: _________________ your family from Mexico?',
-        option: ['Is', 'Am', 'Are'],
-        answer: 'Is'
-
-    },
-    {
-        main: 'Grammar',
-        desc: 'Complete the conversation. Use the correct form of be.',
-        question: 'Isabel: No. We _________________ from Brazil.',
-        option: ['are', 'is', 'am'],
-        answer: 'are'
-
-    },
-    {
-        main: 'Grammar',
-        desc: 'Complete the conversation. Use the correct form of be.',
-        question: 'Jack: What _________________ your first language, Isabel?',
-        option: ['am', 'are', 'is'],
-        answer: 'is'
-
-    },
-
-    {
-        main: 'Grammar',
-        desc: 'Choose the correct words to complete the sentences.',
-        question: 'Robert is handsome. He\’s very _________ .',
-        option: ['friendly', 'good-looking', 'serious'],
-        answer: 'good-looking'
+        desc: 'Listen to Maria talking about her plans for the future. Choose the correct answers.',
+        question: 'She wants to _____ .',
+        option: ['find a new roommate', ' look for a larger apartment', 'have her own apartment'],
+        answer: 'have her own apartment'
     },
     {
         main: 'Grammar',
         desc: 'Choose the correct words to complete the sentences.',
-        question: 'Anne works in a store, and she handles money. She\’s a _________ .',
-        option: ['cashier', 'pilot', 'musician'],
-        answer: 'cashier'
+        question: 'A: _________ I take your order?',
+        option: ['May', 'Will', 'Would'],
+        answer: 'May'
     },
     {
         main: 'Grammar',
         desc: 'Choose the correct words to complete the sentences.',
-        question: 'Mia doesn\’t like her job. It\’s very _________ .',
-        option: ['interesting', 'exciting', 'boring'],
-        answer: 'boring'
+        question: 'B: Yes. _________ have a hamburger with french fries, please.',
+        option: ['I\'d', 'I\'ll', 'I\'m'],
+        answer: 'I\'ll'
+
     },
     {
         main: 'Grammar',
         desc: 'Choose the correct words to complete the sentences.',
-        question: 'Mario is Celia\’s father. Celia is Mario\’s _________ .',
-        option: ['wife', 'daughter', 'sister'],
-        answer: 'daughter'
+        question: 'A: And what _________ you like to drink with that?',
+        option: ['would', 'will', 'can'],
+        answer: 'would'
+
+    },
+    {
+        main: 'Grammar',
+        desc: 'Choose the correct words to complete the sentences.',
+        question: 'B: _________ I have a soda with a lot of ice?',
+        option: ['Would', 'Could', 'Will'],
+        answer: 'Could'
+
+    },
+    {
+        main: 'Grammar',
+        desc: 'Choose the correct words to complete the sentences.',
+        question: 'A: Sure. What size?\n    B: _________ like a large one, please.',
+        option: ['I\’ll', 'I\’ve', 'I\’d'],
+        answer: 'I\’d'
+
     },
 
     {
         main: 'Grammar',
-        desc: 'Choose the correct words.',
-        question: 'It\’s cold today, _______________ it\’s very windy.',
-        option: ['and', 'but', 'so'],
-        answer: 'and'
+        desc: 'Choose the answer of each question. ',
+        question: '1. What time of year should I go to Miami? _______',
+        option: ['You can visit the pyramids.', ' I’m going to go to the markets.', 'You should go in the winter.'],
+        answer: 'You can visit the pyramids.'
     },
     {
         main: 'Grammar',
-        desc: 'Choose the correct words.',
-        question: 'It\’s noon, ________ we\’re eating lunch.',
-        option: ['and', 'but', 'so'],
-        answer: 'so'
+        desc: 'Choose the answer of each question. ',
+        question: '2. What’s Dubai like? _______',
+        option: ['You can visit the pyramids.', 'It\’s very busy.', 'You should go in the summer.'],
+        answer: 'It\’s very busy.'
     },
     {
         main: 'Grammar',
-        desc: 'Choose the correct words.',
-        question: 'John is wearing shoes, ________ he isn\’t wearing socks.',
-        option: ['and', 'but', 'so'],
-        answer: 'but'
+        desc: 'Choose the answer of each question. ',
+        question: '3. What sights can I see in Egypt? _______',
+        option: ['You can visit the pyramids.', 'It\’s very busy.', 'You should go in the summer.'],
+        answer: 'You can visit the pyramids.'
     },
     {
         main: 'Grammar',
-        desc: 'Choose the missing questions.',
-        question: 'A:______________________________________ ?B: I\’m fine,thanks.',
-        option: ['How are you?', 'How old are you ?', 'Where are you ?'],
-        answer: 'How are you?'
+        desc: 'Choose the answer of each question. ',
+        question: '4. What are you going to do in Seoul? _______',
+        option: ['You can visit the pyramids.', 'It\’s very busy.', 'I\’m going to go to the markets.'],
+        answer: 'I\’m going to go to the markets.'
+    },
+
+    {
+        main: 'Grammar',
+        desc: 'Choose the answer of each question. ',
+        question: '5. Have you been to Peru? _______',
+        option: ['Yes. I went last year.', ' It\’s very busy.', 'I\’m going to go to the markets.'],
+        answer: 'Yes. I went last year.'
     },
     {
         main: 'Grammar',
-        desc: 'Choose the missing questions.',
-        question: 'A:______________________________________ ?B: I\’m 28 years old.',
-        option: ['How are you?', 'How old are you?', 'How many brothers do you have?'],
-        answer: 'How old are you?'
-    },
-    {
-        main: 'Grammar',
-        desc: 'Choose the missing questions.',
-        question: 'A:______________________________________ ?B: I\’m a salesperson.',
-        option: ['What does your sister do?',
-            'What do you do?',
-            'Where are you from?'
-        ],
-        answer: 'What do you do?'
-    },
-    {
-        main: 'Grammar',
-        desc: 'Choose the missing questions.',
-        question: 'A:______________________________________ ?B: I work in shoe store.',
+        desc: 'Read the first line of the conversation. Choose the correct response.',
+        question: 'A: What does your boyfriend look like? B: _______________',
         option: [
-            'Where do you work?',
-            'When do you work ?',
-            'How do you work ?'
+            'He\’s tall and handsome.',
+            'He\’s the man sitting on the couch.',
+            'He\’s the one in a blue T-shirt.'
         ],
-        answer: 'Where do you work?'
+        answer: 'He\’s tall and handsome.'
     },
     {
         main: 'Grammar',
-        desc: 'Choose the correct responses',
-        question: 'A: Have a nice day. B: __________',
+        desc: 'Read the first line of the conversation. Choose the correct response.',
+        question: '2. A: I love Mexican food. B: _______________',
         option: [
-            'It\’s nice to meet you.',
-            'Not bad, thanks.',
-            'OK. See you later.'
+            'I don\’t either.',
+            'Really? I do.',
+            'So do I.'
         ],
-        answer: 'OK. See you later.'
+        answer: 'So do I.'
     },
     {
         main: 'Grammar',
-        desc: 'Choose the correct responses',
-        question: 'A: What\’s Marta like? B: __________',
+        desc: 'Read the first line of the conversation. Choose the correct response.',
+        question: 'A: What can I take for a headache?  B: _______________',
         option: [
-            'She\’s from Mexico.',
-            'She\’s very nice.',
-            'She\’s eighteen.'
+            'I\’d like some pain medicine, please.',
+            'Can I have some pain medicine?',
+            'Why don\’t you take some pain medicine?'
         ],
-        answer: 'She\’s very nice.'
+        answer: 'Why don\’t you take some pain medicine?'
     },
     {
         main: 'Grammar',
-        desc: 'Choose the correct responses',
-        question: 'A: I need a pen. B: __________',
+        desc: 'Read the first line of the conversation. Choose the correct response.',
+        question: 'A: What are you doing tonight?   B: _______________',
         option: [
-            'Let me see. Yes, it is.',
-            'No problem. Thank you.',
-            'There\’s a pen on the desk.'
+            'Sure. I\’d love to.',
+            'I\’m going to work late.',
+            'No, I\’m not.'
         ],
-        answer: 'There’s a pen on the desk.'
+        answer: 'I\’m going to work late.'
     },
     {
         main: 'Grammar',
-        desc: 'Choose the correct responses',
-        question: 'A: When do you study?        B: __________ ',
+        desc: 'Read the first line of the conversation. Choose the correct response.',
+        question: 'A: I’m not in the mood for a movie.      B: _______________',
         option: [
-            'Yes, a lot.',
-            'At school.',
-            'In the evening.'
+            'I’d love to.',
+            'Neither am I.',
+            'Great! Let’s go.'
         ],
-        answer: 'In the evening.'
+        answer: 'Neither am I.'
     },
     {
         main: 'Grammar',
-        desc: 'Choose the correct responses',
-        question: 'A: Where are my keys? B: __________ ',
+        desc: 'Read the first line of the conversation. Choose the correct response.',
+        question: 'A: Hey, you look really different!     B: _______________',
         option: [
-            'They\’re under your hat.',
-            'It\’s on your briefcase.',
-            'There are three.'
+            'Yes, I got one last week.',
+            'I know. I got new glasses.',
+            ' I moved to a new apartment.'
         ],
-        answer: 'They\’re under your hat.'
+        answer: 'I know. I got new glasses.'
     },
     {
         main: 'Grammar',
-        desc: 'Choose the correct form of the verb to complete the conversations.',
-        question: 'A: Where do you live?  B: I _____________ in the suburbs with my family.',
+        desc: 'Choose the correct word or phrase to complete each sentence.',
+        question: '1. Tom isn’t blond. His hair is very _____ .',
         option: [
-            'live',
-            'lives',
-            'living'
+            'straight',
+            'dark',
+            'short'
         ],
-        answer: 'live'
+        answer: 'dark'
     },
     {
         main: 'Grammar',
-        desc: 'Choose the correct form of the verb to complete the conversations.',
-        question: 'A: Do you _____________ any children?  B: Yes,we have two children.',
+        desc: 'Choose the correct word or phrase to complete each sentence.',
+        question: '2. I went to the drugstore yesterday and bought a tube of _____ .',
         option: [
-            'has',
-            'have',
-            'are'
+            'tissues',
+            'cough drops',
+            'toothpaste'
         ],
-        answer: 'have'
+        answer: 'toothpaste'
     },
     {
         main: 'Grammar',
-        desc: 'Choose the correct form of the verb to complete the conversations.',
-        question: 'A: Do you drive to work?  B: No,I _____________.I take the bus.',
+        desc: 'Choose the correct word or phrase to complete each sentence.',
+        question: '3. Martin likes to go away on weekends. Last Saturday, he _____ his truck to the beach.',
         option: [
-            'do not',
-            'does not',
-            'am not'
+            'rode',
+            'drove',
+            'lost'
         ],
-        answer: 'do not'
+        answer: 'drove'
     },
     {
         main: 'Grammar',
-        desc: 'Choose the correct form of the verb to complete the conversations.',
-        question: 'A: Does your wife _____________ ? B: Yes,she works in a hospital.',
+        desc: 'Choose the correct word or phrase to complete each sentence.',
+        question: '4. I\’d like to see some of our friends. Let\’s invite Rick and Simone over to our house and have a _____ .',
         option: [
-            'work',
-            'works',
-            'working'
+            'musical',
+            'barbecue',
+            'film festival'
         ],
-        answer: 'work'
+        answer: 'barbecue'
     },
-    {
+       {
         main: 'Grammar',
-        desc: 'Choose the correct form of the verb to complete the conversations.',
-        question: 'A: What does she _____________ ?B: She\’ s a nurse.',
+        desc: 'Choose the correct word or phrase to complete each sentence.',
+        question: '5. I wanted to change how I look, so I _____ .',
         option: [
-            'do',
-            'does',
-            'doing'
+            'got a credit card',
+            'started a new hobby',
+            'grew a beard'
         ],
-        answer: 'do'
+        answer: 'grew a beard'
     },
 ]
 
