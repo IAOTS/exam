@@ -4,17 +4,12 @@
            let name = prompt("Enter The Password"); // name won't be null, but it may be falsey, so here
            // we check if the name is falsey:
            if (name == "fa21.") {
-               parent.location = 'index1A.html';
+               parent.location = 'index1B.html';
 
            } else {
-               parent.location = 'home1A.html';
+               parent.location = 'home1B.html';
 
            }
 
        }
-       var note = document.getElementById("TestNotes");
-       note.onclick = function() {
-           document.getElementById("notes").style.display = "block";
-
-
-       }
+    
