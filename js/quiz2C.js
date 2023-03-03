@@ -193,63 +193,63 @@ var questionBank = [
         answer: 'T'
     },
           {
-        main: 'Refer to the reading “Chocolate.” For each statement, answer True or False.',
+        main: 'Refer to the reading \“Killer Bees.\”  For each statement, answer True or False.',
         desc: 'Follow the reading',
         question: 'Scientists gave the bees the name \“killer bees.\” ',
         option: ['T', 'F','', ''],
         answer: 'F'
     },
         {
-        main: 'Refer to the reading “Chocolate.” For each statement, answer True or False.',
+        main: 'Refer to the reading \“Killer Bees.\”  For each statement, answer True or False.',
         desc: 'Follow the reading',
         question: 'The bees flew over to Brazil from Africa.',
         option: ['T', 'F','', ''],
         answer: 'F'
     },
         {
-        main: 'Refer to the reading “Chocolate.” For each statement, answer True or False.',
+        main: 'Refer to the reading \“Killer Bees.\”  For each statement, answer True or False.',
         desc: 'Follow the reading',
         question: 'A Brazilian scientist tried to make a new type of bee that would make more honey.',
         option: ['T', 'F','', ''],
         answer: 'T'
     },
          {
-        main: 'Refer to the reading “Chocolate.” For each statement, answer True or False.',
+        main: 'Refer to the reading \“Killer Bees.\”  For each statement, answer True or False.',
         desc: 'Follow the reading',
         question: 'The scientist freed the bees from his laboratory because his experiment did not work.',
         option: ['T', 'F','', ''],
         answer: 'F'
     },
          {
-        main: 'Refer to the reading “Chocolate.” For each statement, answer True or False.',
+        main: 'Refer to the reading \“Killer Bees.\”  For each statement, answer True or False.',
         desc: 'Follow the reading',
         question: 'The killer bees spread very quickly from Brazil up into Central America.',
         option: ['T', 'F','', ''],
         answer: 'T'
     },
           {
-        main: 'Refer to the reading “Chocolate.” For each statement, answer True or False.',
+        main: 'Refer to the reading \“Killer Bees.\”  For each statement, answer True or False.',
         desc: 'Follow the reading',
         question: 'When the bees reached the United States, they spread quickly up to the northern states.',
         option: ['T', 'F','', ''],
         answer: 'F'
     },
           {
-        main: 'Refer to the reading “Chocolate.” For each statement, answer True or False.',
+        main: 'Refer to the reading \“Killer Bees.\”  For each statement, answer True or False.',
         desc: 'Follow the reading',
         question: 'Thousands of Americans died from bee attacks.',
         option: ['T', 'F','', ''],
         answer: 'F'
     },
         {
-        main: 'Refer to the reading “Chocolate.” For each statement, answer True or False.',
+        main: 'Refer to the reading \“Killer Bees.\”  For each statement, answer True or False.',
         desc: 'Follow the reading',
         question: 'It is not clear why Africanized, or killer bees, attack people.',
         option: ['T', 'F','', ''],
         answer: 'T'
     },
                 {
-        main: 'Refer to the reading “Chocolate.” For each statement, answer True or False.',
+        main: 'Refer to the reading \“Killer Bees.\”  For each statement, answer True or False.',
         desc: 'Follow the reading',
         question: 'Killer bees mostly tend to attack a person’s head, not their body.',
         option: ['T', 'F','', ''],
