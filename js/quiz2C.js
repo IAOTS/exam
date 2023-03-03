@@ -25,13 +25,7 @@ var questionBank = [
         answer: 'On June 5, 2002, we came to this country.'
     },
         
-           {
-        main: 'PART 1: WRITING SKILLS',
-        desc: 'Choose the correct answer for each question.',
-        question: 'Where does the word because come?',
-        option: ['for plural nouns', 'for long nouns', 'for singular nouns', 'for short nouns'],
-        answer: 'for singular nouns'
-    },
+          
             {
         main: 'PART 1: WRITING SKILLS',
         desc: 'Choose the correct answer for each question.',
@@ -39,13 +33,7 @@ var questionBank = [
         option: ['before the part of the sentence that gives a reason', 'after the part of the sentence that gives a reason', 'after the part of the sentence that describes a cause', 'before the part of the sentence that describes an effect'],
         answer: 'before the part of the sentence that gives a reason'
     },
-         {
-        main: 'PART 1: WRITING SKILLS',
-        desc: 'Choose the correct answer for each question.',
-        question: 'Look at the following steps in a recipe. Which sentence should come first?',
-        option: ['Cook for about fifteen minutes.', 'Cut the potatoes into small pieces.', 'Take them out of the oil, add salt, and eat them while they are hot.', 'Heat enough oil to cover the potatoes.'],
-        answer: 'Cut the potatoes into small pieces.'
-    },
+       
           {
         main: 'PART 1: WRITING SKILLS',
         desc: 'Choose the correct answer for each question.',
@@ -74,13 +62,7 @@ var questionBank = [
         option: ['Why?', 'Who?', 'What?', 'When?'],
         answer: 'Why?'
     },
-          {
-        main: 'PART 1: WRITING SKILLS',
-        desc: 'Choose the correct answer for each question.',
-        question: 'The word very goes before ____.',
-        option: ['a noun', 'an adjective', 'a verb', 'a preposition'],
-        answer: 'an adjective'
-    },
+         
          {
         main: 'PART 1: WRITING SKILLS',
         desc: 'Choose the correct answer for each question.',
@@ -103,13 +85,7 @@ var questionBank = [
         option: ['I believe', 'I think', 'I know', 'I feel'],
         answer: 'I know'
     },
-         {
-        main: 'PART 1: WRITING SKILLS',
-        desc: 'Choose the correct answer for each question.',
-        question: 'Washing your own clothes is ____ taking them to the Laundromat.',
-        option: ['not so convenient as', 'not as convenient than', 'not as convenient as', 'more convenient as'],
-        answer: 'not as convenient as'
-    },
+        
         {
         main: 'PART 1: WRITING SKILLS',
         desc: 'Choose the correct answer for each question.',
