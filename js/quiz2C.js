@@ -287,9 +287,10 @@ function displayQuestion() {
     main.innerHTML = '' + questionBank[i].main;
     desc.innerHTML = '' + questionBank[i].desc;
     question.innerHTML = 'Q.' + (i + 1) + ' ' + questionBank[i].question;
-    if (i === 20) {
-        option2.style.display = "none";
-        option3.style.display = "none";
+    if (i === 25) {
+        option2.style.visibility="hidden";
+        option3.style.visibility="hidden";
+
 
     }
     option0.innerHTML = questionBank[i].option[0];
@@ -317,8 +318,8 @@ function nextQuestion() {
 
     } else {
         points.innerHTML = score;
-        quizContainer.style.display = 'none';
-        scoreboard.style.display = 'block'
+      option2.style.visibility="visible";
+        option3.style.visibility="visible";
     }
 
 
@@ -328,7 +329,7 @@ function nextQuestion() {
 function previousQuestion() {
     if (i <= questionBank.length - 1) {
         i = i - 1;
-        if (i < 20) {
+        if (i < 25) {
   option2.style.display = "block";
         option3.style.display = "block";        }
         displayQuestion();
