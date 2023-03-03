@@ -2,231 +2,260 @@
 
 
 //Question ba
-var questionBank = [{
-
-
-        main: 'Listening',
-        desc: 'Listen. Circle the letter of the words you hear.',
-        question: 'Listening(1)',
-        option: ['7:20', '11:30', '10:30'],
-        answer: '11:30'
+var questionBank = [
+        {
+        main: 'PART 1: WRITING SKILLS',
+        desc: 'Choose the correct answer for each question.',
+        question: 'Which of the following statements about a narrative paragraph is correct?',
+        option: ['It compares two different things.', 'It describes two similar things.', 'It tells a story about something that happened.', 'It tells how to do something.'],
+        answer: 'It tells a story about something that happened.'
     },
-    {
-        main: 'Listening',
-        desc: 'Listen. Circle the letter of the words you hear.',
-        question: 'Listening(2)',
-        option: ['$15.99', '$16.95', '$50.99'],
-        answer: '$50.99'
+         {
+        main: 'PART 1: WRITING SKILLS',
+        desc: 'Choose the correct answer for each question.',
+        question: 'Which of the following time words and phrases do not show one event that happens before another event?',
+        option: ['before that', 'yesterday', 'previously', 'later'],
+        answer: 'later'
     },
-    {
-        main: 'Listening',
-        desc: 'Listen. Circle the letter of the words you hear.',
-        question: 'Listening(3)',
-        option: ['eating', 'meat', 'eggs'],
-        answer: 'meat'
+           {
+        main: 'PART 1: WRITING SKILLS',
+        desc: 'Choose the correct answer for each question.',
+        question: 'Which of the following sentences uses the comma correctly?',
+        option: ['On June 5 2002, we came to this country.', 'On June 5, 2002 we came to this country.', 'On June 5, 2002, we came to this country.', 'On June, 5, 2002, we came to this country.'],
+        answer: 'On June 5, 2002, we came to this country.'
     },
-
-    {
-        main: 'Listening',      
-        desc: 'Listen. Circle the letter of the words you hear.',
-        question: 'Listening(4)',
-        option: ['carpenter', 'electrician', 'construction worker'],
-        answer: 'electrician'
+        
+           {
+        main: 'PART 1: WRITING SKILLS',
+        desc: 'Choose the correct answer for each question.',
+        question: 'Where does the word because come?',
+        option: ['for plural nouns', 'for long nouns', 'for singular nouns', 'for short nouns'],
+        answer: 'for singular nouns'
     },
-                        {
-        main: 'Listening',      
-        desc: 'Listen. Circle the letter of the words you hear.',
-        question: 'Listening(5)',
-        option: ['camping', 'hiking', 'biking'],
-        answer: 'camping'
+            {
+        main: 'PART 1: WRITING SKILLS',
+        desc: 'Choose the correct answer for each question.',
+        question: 'Where do time words that show steps in a process come in a sentence?',
+        option: ['before the part of the sentence that gives a reason', 'after the part of the sentence that gives a reason', 'after the part of the sentence that describes a cause', 'before the part of the sentence that describes an effect'],
+        answer: 'before the part of the sentence that gives a reason'
     },
-    {
-        main: 'Grammar',
-        desc: 'Choose the correct word.',
-        question: 'We have a vacation ____________________  December.',
-        option: ['in', 'on', 'at'],
-        answer: 'in'
+         {
+        main: 'PART 1: WRITING SKILLS',
+        desc: 'Choose the correct answer for each question.',
+        question: 'Look at the following steps in a recipe. Which sentence should come first?',
+        option: ['Cook for about fifteen minutes.', 'Cut the potatoes into small pieces.', 'Take them out of the oil, add salt, and eat them while they are hot.', 'Heat enough oil to cover the potatoes.'],
+        answer: 'Cut the potatoes into small pieces.'
     },
-    {
-        main: 'Grammar',
-        desc: 'Choose the correct word.',
-        question: '____________________  there any bottles of water?',
-        option: ['Are', 'Is', 'Am'],
-        answer: 'Are'
-
+          {
+        main: 'PART 1: WRITING SKILLS',
+        desc: 'Choose the correct answer for each question.',
+        question: 'Which preposition do you use to show an exact time of day, for example, \“6 o’clock\”?',
+        option: ['in', 'at', 'on', 'around'],
+        answer: 'at'
     },
-    {
-        main: 'Grammar',
-        desc: 'Choose the correct word.',
-        question: 'What ____________________ she do in the afternoon?',
-        option: ['do', 'does', 'are'],
-        answer: 'does'
-
+         {
+        main: 'PART 1: WRITING SKILLS',
+        desc: 'Choose the correct answer for each question.',
+        question: 'Where do most writers write about the most important reason in a paragraph that lists reasons?',
+        option: ['first', 'second', 'third', 'last'],
+        answer: 'last'
     },
-    {
-        main: 'Grammar',
-        desc: 'Choose the correct word.',
-        question: 'They ____________________ teachers before.',
-        option: ['was', 'were', 'is'],
-        answer: 'were'
-
+                  {
+        main: 'PART 1: WRITING SKILLS',
+        desc: 'Choose the correct answer for each question.',
+        question: 'Which of the following sentences does not have correct punctuation?',
+        option: ['A very large earthquake happened in San Francisco, California, in 1906.', 'The population of Beijing, China, is huge.', 'I arrived in France on July 4, 2012.', 'The museum in Cairo, Egypt is amazing.'],
+        answer: 'The museum in Cairo, Egypt is amazing.'
     },
-    {
-        main: 'Grammar',
-        desc: 'Choose the correct word.',
-        question: '____________________ going to go to a party tomorrow.',
-        option: ['We', 'We\'re', 'We is'],
-        answer: 'We\'re'
-
+          {
+        main: 'PART 1: WRITING SKILLS',
+        desc: 'Choose the correct answer for each question.',
+        question: 'What question does the word because answer?',
+        option: ['Why?', 'Who?', 'What?', 'When?'],
+        answer: 'Why?'
     },
-
-    {
-        main: 'Grammar',
-        desc: 'Choose the correct word.',
-        question: 'Now she ___________ a nurse.',
-        option: ['is', 'was', 'are'],
-        answer: 'is'
+          {
+        main: 'PART 1: WRITING SKILLS',
+        desc: 'Choose the correct answer for each question.',
+        question: 'The word very goes before ____.',
+        option: ['a noun', 'an adjective', 'a verb', 'a preposition'],
+        answer: 'an adjective'
     },
-    {
-        main: 'Grammar',
-        desc: 'Choose the correct word.',
-        question: 'Now they ___________ electricians.',
-        option: ['is', 'was', 'are'],
-        answer: 'are'
+         {
+        main: 'PART 1: WRITING SKILLS',
+        desc: 'Choose the correct answer for each question.',
+        question: 'Which of the following correctly states what punctuation to use when a time word or phrase comes at the beginning of a sentence?',
+        option: ['Always put a comma after the time word or phrase.', 'Never put a comma after the time word or phrase.', 'Sometimes put a comma after the time word or phrase.', 'Put a semi-colon after the time word or phrase.'],
+        answer: 'Always put a comma after the time word or phrase.'
     },
-    {
-        main: 'Grammar',
-        desc: 'Choose the correct word.',
-        question: 'They ___________ students before. ',
-        option: ['were', 'was', 'are'],
-        answer: 'were'
+          {
+        main: 'PART 1: WRITING SKILLS',
+        desc: 'Choose the correct answer for each question.',
+        question: 'Which of the following sentences uses the comma correctly?',
+        option: ['Because of the storm, Jose stayed inside the house.', 'Because, of the storm Jose stayed inside the house.', 'Jose stayed inside the house, because of the storm.', 'Jose stayed inside the house because, of the storm.'],
+        answer: 'Because of the storm, Jose stayed inside the house.'
     },
-    {
-        main: 'Grammar',
-        desc: 'Choose the correct word.',
-        question: 'He ___________ a construction worker before.',
-        option: ['were', 'was', 'are'],
-        answer: 'was'
+        
+          {
+        main: 'PART 1: WRITING SKILLS',
+        desc: 'Choose the correct answer for each question.',
+        question: 'Which of the following phrases does not introduce an opinion?',
+        option: ['I believe', 'I think', 'I know', 'I feel'],
+        answer: 'I know'
     },
-
-    {
-        main: 'Grammar',
-        desc: 'Choose the correct word.',
-        question: 'Now he ___________ a teacher.',
-        option: ['were', 'is', 'are'],
-        answer: 'is'
+         {
+        main: 'PART 1: WRITING SKILLS',
+        desc: 'Choose the correct answer for each question.',
+        question: 'Washing your own clothes is ____ taking them to the Laundromat.',
+        option: ['not so convenient as', 'not as convenient than', 'not as convenient as', 'more convenient as'],
+        answer: 'not as convenient as'
     },
-    {
-        main: 'Grammar',
-        desc: 'Choose the correct verb in the past tense.',
-        question: 'Sam ____________________ breakfast this morning.',
-        option: [
-            'make',
-            'makes',
-            'made'
-        ],
-        answer: 'made'
+        {
+        main: 'PART 1: WRITING SKILLS',
+        desc: 'Choose the correct answer for each question.',
+        question: 'Which of the following sentences has correct punctuation?',
+        option: ['In addition, tutors can give children lessons after school.', 'In addition tutors can give children lessons after school.', 'In addition tutors, can give children lessons after school.', 'In, addition tutors can give children lessons after school.'],
+       answer: 'In addition, tutors can give children lessons after school.'
     },
-                      {
-        main: 'Grammar',
-        desc: 'Choose the correct verb in the past tense.',
-        question: 'She ____________________ home late last night.',
-        option: [
-            'get',
-            'got',
-            'gets'
-        ],
-        answer: 'got'
+         {
+        main: 'PART 1: WRITING SKILLS',
+        desc: 'Choose the correct answer for each question.',
+        question: 'Which of the following sentences uses the word so correctly?',
+        option: ['Many people wanted to buy the food, so it was delicious.', 'The food was delicious, so many people wanted to buy it.','The food was delicious so it was cooked in a special oven.', 'So the food was delicious, he sold a lot of it.'],
+        answer: 'The food was delicious, so many people wanted to buy it.'
     },
-                      {
-        main: 'Grammar',
-        desc: 'Choose the correct verb in the past tense.',
-        question: 'He ____________________ the floor last week.',
-        option: [
-            'sweep',
-            'swept',
-            'sweeps'
-        ],
-        answer: 'swept'
+         {
+        main: 'PART 1: WRITING SKILLS',
+        desc: 'Choose the correct answer for each question.',
+        question: 'Which of the following phrases shows that the writer is going to write about the good sides of something?',
+        option: ['One reason is', 'The effect of this is','My opinion is', 'An advantage is'],
+        answer: 'An advantage is'
     },
-                       {
-        main: 'Grammar',
-        desc: 'Choose the correct verb in the past tense.',
-        question: 'Sheila ____________________ the grass yesterday',
-        option: [
-            'cut',
-            'cuts',
-            'cutting'
-        ],
-        answer: 'cut'
+        {
+        main: 'PART 1: WRITING SKILLS',
+        desc: 'Choose the correct answer for each question.',
+        question: 'When you use moreover after the subject of a sentence, what punctuation should come before it?',
+        option: ['a comma', 'a semicolon','no punctuation', 'a colon'],
+        answer: 'a comma'
     },
-                      {
-        main: 'Grammar',
-        desc: 'Choose the correct verb in the past tense.',
-        question: 'They ____________________ the laundry last night.',
-        option: [
-            'do',
-            'doing',
-            'did'
-        ],
-        answer: 'did'
+        {
+        main: 'PART 1: WRITING SKILLS',
+        desc: 'Choose the correct answer for each question.',
+        question: 'Which of the following transition words shows that the writer is going to write about an effect?',
+        option: ['therefore', 'and','because', 'moreover'],
+        answer: 'therefore'
     },
-    {
-        main: 'Grammar',
-        desc: 'Choose the correct answers.',
-        question: 'Were you a waiter? ______',
-        option: [
-            'Yes, I was.',
-            'I went to a museum.',
-            ' I’m going to go swimming.'
-        ],
-        answer: 'Yes, I was.'
+         {
+        main: 'PART 1: WRITING SKILLS',
+        desc: 'Choose the correct answer for each question.',
+        question: 'Which of the following sentences has correct punctuation?',
+        option: ['My uncle wanted to make money; therefore he opened his own restaurant.',
+                 'My uncle wanted to make money; therefore, he opened his own restaurant.',
+                 'My uncle wanted to make money therefore; he opened his own restaurant.', 
+                 'My uncle wanted to make money therefore he opened his own restaurant.'],
+        answer: 'My uncle wanted to make money; therefore, he opened his own restaurant.'
     },
-    {
-        main: 'Grammar',
-        desc: 'Choose the correct answers.',
-        question: 'What can you do? ______',
-        option: [
-            'I\’m going to go swimming.',
-            'No, I can\’t.',
-            'I can use a computer.'
-        ],
-        answer: 'I can use a computer.'
+         {
+        main: 'PART 1: WRITING SKILLS',
+        desc: 'Choose the correct answer for each question.',
+        question: 'When do you write about advantages or disadvantages?',
+        option: ['to support a fact',
+                 'to support an opinion',
+                 'to write a conclusion',
+                 'to give additional information'],
+        answer: 'to support an opinion'
     },
-    {
-        main: 'Grammar',
-        desc: 'Choose the correct answers.',
-        question: 'What did you do yesterday? ______',
-        option: [
-            'I went to a museum.',
-            ' I\’m going to go swimming.',
-            'No, I can\’t.'
-        ],
-        answer: 'I went to a museum.'
+        {
+        main: 'PART 1: WRITING SKILLS',
+        desc: 'Choose the correct answer for each question.',
+        question: 'What do you need to support an opinion?',
+        option: ['other opinions', 
+                 'a topic sentence',
+                 'facts',
+                 'causes and effects'],
+        answer: 'facts'
     },
-    {
-        main: 'Grammar',
-        desc: 'Choose the correct answers.',
-        question: 'What are you going to do today? ______',
-        option: [
-            ' I went to a museum.',
-            'I’m going to go swimming.',
-            'No, I can\’t.'
-        ],
-        answer: 'I’m going to go swimming.'
+         {
+        main: 'PART 1: WRITING SKILLS',
+        desc: 'Choose the correct answer for each question.',
+        question: 'Look at these two sentences: They wanted a funny name for their company. They called it Yahoo! Which of the following correctly combines the sentences?',
+        option: ['They wanted a funny name for their company because they called it Yahoo!', 
+                 'They wanted a funny name for their company, therefore, they called it Yahoo!',
+                 'They wanted a funny name for their company and they called it Yahoo!',
+                 'They wanted a funny name for their company, so they called it Yahoo!'],
+        answer: 'They wanted a funny name for their company, so they called it Yahoo!'
     },
-                    
-    {
-        main: 'Grammar',
-        desc: 'Choose the correct answers.',
-        question: 'Can you make dinner? ______',
-        option: [
-            'I went to a museum.',
-            ' I\’m going to go swimming.',
-            'No, I can\’t.'
-        ],
-        answer: 'No, I can\’t.'
+           {
+        main: 'Refer to the reading \“Killer Bees.\”  For each statement, answer True or False.',
+        desc: 'Killer Bees                            In the 1990s, a new type of bee started to arrive in the United States. It was not the same as the honey bees that were already in the country, which did not usually bother people. These bees got very angry very quickly and would attack people in large numbers. A few people died because these bees attacked them, and soon the media were calling them “killer bees.” Killer bees started in Brazil in 1957. A scientist in São Paulo wanted bees to make more honey, so he brought 46 bees from Africa and bred them with some Brazilian bees. However, the new bees—Africanized bees—were a mistake. They did not want to make more honey; they wanted to attack. Then, by accident, 26 African bees escaped and bred with the Brazilian bees outside. Scientists could not control the problem. The bees spread. They went from Brazil to Venezuela and then to Central America. The bees moved very quickly through tropical Central America. They moved north at a rate of over 360 miles per year. So when the bees arrived in North America, people thought the whole country would soon be covered by Africanized or “killer” bees. However, the bees like warm, tropical climates; and so the bees are mostly still only in the most southern parts of the United States. They do travel and expand their territory; but in the United States, only at a rate of about 60 miles a year. When the bees first arrived in North America, everyone was very afraid. People thought that thousands of people might die. In fact, only six people died from attacks by Africanized bees in the first ten years. Still, these bees are very dangerous, and people are right to be afraid of them. When killer bees attack people, they attack in great numbers and often seriously hurt or kill people. No one is sure why the bees attack. Sometimes a loud noise will cause them to attack. Sometimes if a person has a strong smell or is wearing strong perfume, they may attack. What can you do if you see killer bees coming toward you? The first thing you can do is run. Go into the nearest house or tent. Do not jump into water. The bees will wait for you to come out of the water. Killer bees will try to attack the head or the face, so cover your head with a handkerchief or a coat. You may even take off your shirt and cover your head. Stings to your chest and back are not as dangerous as stings to your head and face. However, if the bees sting you many times, you must get medical attention immediately. ',
+        question: 'Killer bees started coming to the United States at the end of the twentieth century.',
+        option: ['T', 'F','', ''],
+        answer: 'T'
     },
+          {
+        main: 'Refer to the reading “Chocolate.” For each statement, answer True or False.',
+        desc: 'Follow the reading',
+        question: 'Scientists gave the bees the name \“killer bees.\” ',
+        option: ['T', 'F','', ''],
+        answer: 'F'
+    },
+        {
+        main: 'Refer to the reading “Chocolate.” For each statement, answer True or False.',
+        desc: 'Follow the reading',
+        question: 'The bees flew over to Brazil from Africa.',
+        option: ['T', 'F','', ''],
+        answer: 'F'
+    },
+        {
+        main: 'Refer to the reading “Chocolate.” For each statement, answer True or False.',
+        desc: 'Follow the reading',
+        question: 'A Brazilian scientist tried to make a new type of bee that would make more honey.',
+        option: ['T', 'F','', ''],
+        answer: 'T'
+    },
+         {
+        main: 'Refer to the reading “Chocolate.” For each statement, answer True or False.',
+        desc: 'Follow the reading',
+        question: 'The scientist freed the bees from his laboratory because his experiment did not work.',
+        option: ['T', 'F','', ''],
+        answer: 'F'
+    },
+         {
+        main: 'Refer to the reading “Chocolate.” For each statement, answer True or False.',
+        desc: 'Follow the reading',
+        question: 'The killer bees spread very quickly from Brazil up into Central America.',
+        option: ['T', 'F','', ''],
+        answer: 'T'
+    },
+          {
+        main: 'Refer to the reading “Chocolate.” For each statement, answer True or False.',
+        desc: 'Follow the reading',
+        question: 'When the bees reached the United States, they spread quickly up to the northern states.',
+        option: ['T', 'F','', ''],
+        answer: 'F'
+    },
+          {
+        main: 'Refer to the reading “Chocolate.” For each statement, answer True or False.',
+        desc: 'Follow the reading',
+        question: 'Thousands of Americans died from bee attacks.',
+        option: ['T', 'F','', ''],
+        answer: 'F'
+    },
+        {
+        main: 'Refer to the reading “Chocolate.” For each statement, answer True or False.',
+        desc: 'Follow the reading',
+        question: 'It is not clear why Africanized, or killer bees, attack people.',
+        option: ['T', 'F','', ''],
+        answer: 'T'
+    },
+                {
+        main: 'Refer to the reading “Chocolate.” For each statement, answer True or False.',
+        desc: 'Follow the reading',
+        question: 'Killer bees mostly tend to attack a person’s head, not their body.',
+        option: ['T', 'F','', ''],
+        answer: 'T'
+    },
+         
 ]
 
 var question = document.getElementById('question');
@@ -258,13 +287,15 @@ function displayQuestion() {
     main.innerHTML = '' + questionBank[i].main;
     desc.innerHTML = '' + questionBank[i].desc;
     question.innerHTML = 'Q.' + (i + 1) + ' ' + questionBank[i].question;
-    if (i === 5) {
-        AudioA.style.display = "none";
+    if (i === 20) {
+        option2.style.display = "none";
+        option3.style.display = "none";
 
     }
     option0.innerHTML = questionBank[i].option[0];
     option1.innerHTML = questionBank[i].option[1];
     option2.innerHTML = questionBank[i].option[2];
+    option3.innerHTML = questionBank[i].option[3];
     stat.innerHTML = "Question" + ' ' + (i + 1) + ' ' + 'of' + ' ' + questionBank.length;
 
 }
@@ -297,9 +328,9 @@ function nextQuestion() {
 function previousQuestion() {
     if (i <= questionBank.length - 1) {
         i = i - 1;
-        if (i <= 5) {
-            AudioA.style.display = "block";
-        }
+        if (i < 20) {
+  option2.style.display = "block";
+        option3.style.display = "block";        }
         displayQuestion();
     }
 }
@@ -349,7 +380,7 @@ function send_handle() {
     let name = document.getElementById("name").value;
     if (name == "") {
         msg1.innerHTML = "لا يمكنك ترك الاسم فارغا";
-        parent.location = "indexAccessB.html?#scorecard";
+        parent.location = "index2C.html?#scorecard";
     } else {
         var win = open(`https://wa.me/${num}?text=أنا الطالب : ${name}%20كود الإختبار هو :9582${msg}_IAOTS`, 'self');
         // win.focus();
