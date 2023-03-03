@@ -2,231 +2,213 @@
 
 
 //Question ba
-var questionBank = [{
-
-
-        main: 'Listening',
-        desc: 'Listen. Circle the letter of the words you hear.',
-        question: 'Listening(1)',
-        option: ['7:20', '11:30', '10:30'],
-        answer: '11:30'
+var questionBank = [
+        {
+        main: 'PART 1: WRITING SKILLS',
+        desc: 'Choose the correct answer for each question.',
+        question: 'What does a pronoun replace in a sentence?',
+        option: ['a verb', 'a noun', 'an adjective', 'an adverb'],
+        answer: 'a noun'
     },
-    {
-        main: 'Listening',
-        desc: 'Listen. Circle the letter of the words you hear.',
-        question: 'Listening(2)',
-        option: ['$15.99', '$16.95', '$50.99'],
-        answer: '$50.99'
+         {
+        main: 'PART 1: WRITING SKILLS',
+        desc: 'Choose the correct answer for each question.',
+        question: 'Look at this sentence: Christine and Bernard have two children. Which sentence could best follow it?',
+        option: ['He loves them both.', 'They love it both.', 'She loves him both.', 'They love them both.'],
+        answer: 'They love them both.'
     },
-    {
-        main: 'Listening',
-        desc: 'Listen. Circle the letter of the words you hear.',
-        question: 'Listening(3)',
-        option: ['eating', 'meat', 'eggs'],
-        answer: 'meat'
+           {
+        main: 'PART 1: WRITING SKILLS',
+        desc: 'Choose the correct answer for each question.',
+        question: 'In which of the following sentences is the punctuation notcorrect?',
+        option: ['First, David woke up.', 'Next, he got up and had a shower.', 'Then, he got dressed and had breakfast.', 'Finally, he left the house to go to work.'],
+        answer: 'Finally, he left the house to go to work.'
     },
-
-    {
-        main: 'Listening',      
-        desc: 'Listen. Circle the letter of the words you hear.',
-        question: 'Listening(4)',
-        option: ['carpenter', 'electrician', 'construction worker'],
-        answer: 'electrician'
+        
+           {
+        main: 'PART 1: WRITING SKILLS',
+        desc: 'Choose the correct answer for each question.',
+        question: 'When do we use the pronoun it?',
+        option: ['for plural nouns', 'for long nouns', 'for singular nouns', 'for short nouns'],
+        answer: 'for singular nouns'
     },
-                        {
-        main: 'Listening',      
-        desc: 'Listen. Circle the letter of the words you hear.',
-        question: 'Listening(5)',
-        option: ['camping', 'hiking', 'biking'],
-        answer: 'camping'
+            {
+        main: 'PART 1: WRITING SKILLS',
+        desc: 'Choose the correct answer for each question.',
+        question: 'Where do time words that show steps in a process come in a sentence?',
+        option: ['after the verb', 'at the beginning of the sentence', 'at the end of the sentence', 'between the subjectof the sentence and the verb'],
+        answer: 'at the beginning of the sentence'
     },
-    {
-        main: 'Grammar',
-        desc: 'Choose the correct word.',
-        question: 'We have a vacation ____________________  December.',
-        option: ['in', 'on', 'at'],
-        answer: 'in'
+         {
+        main: 'PART 1: WRITING SKILLS',
+        desc: 'Choose the correct answer for each question.',
+        question: 'Look at the following steps in a recipe. Which sentence should come first?',
+        option: ['Cook for about fifteen minutes.', 'Cut the potatoes into small pieces.', 'Take them out of the oil, add salt, and eat them while they are hot.', 'Heat enough oil to cover the potatoes.'],
+        answer: 'Cut the potatoes into small pieces.'
     },
-    {
-        main: 'Grammar',
-        desc: 'Choose the correct word.',
-        question: '____________________  there any bottles of water?',
-        option: ['Are', 'Is', 'Am'],
-        answer: 'Are'
-
+          {
+        main: 'PART 1: WRITING SKILLS',
+        desc: 'Choose the correct answer for each question.',
+        question: 'Look at this sentence: Wash the coffee beans before you cook them. What is the word them in the sentence?',
+        option: ['a pronoun', 'an adjective', 'an adverb', 'a verb'],
+        answer: 'a pronoun'
     },
-    {
-        main: 'Grammar',
-        desc: 'Choose the correct word.',
-        question: 'What ____________________ she do in the afternoon?',
-        option: ['do', 'does', 'are'],
-        answer: 'does'
-
+         {
+        main: 'PART 1: WRITING SKILLS',
+        desc: 'Choose the correct answer for each question.',
+        question: 'How should you write instructions so that a reader can follow them easily?',
+        option: ['Start with the easiest step.', 'Write the steps in the correct order.', 'Number each step.', 'Use easy vocabulary.'],
+        answer: 'Write the steps in the correct order.'
     },
-    {
-        main: 'Grammar',
-        desc: 'Choose the correct word.',
-        question: 'They ____________________ teachers before.',
-        option: ['was', 'were', 'is'],
-        answer: 'were'
-
+                  {
+        main: 'PART 1: WRITING SKILLS',
+        desc: 'Choose the correct answer for each question.',
+        question: 'Look at this sentence: I come here every morning to eat it. What is the pronoun in the sentence?',
+        option: ['come', 'here', 'morning', 'it'],
+        answer: 'it'
     },
-    {
-        main: 'Grammar',
-        desc: 'Choose the correct word.',
-        question: '____________________ going to go to a party tomorrow.',
-        option: ['We', 'We\'re', 'We is'],
-        answer: 'We\'re'
-
+          {
+        main: 'PART 1: WRITING SKILLS',
+        desc: 'Choose the correct answer for each question.',
+        question: 'The weather in northern Canada is _ ___ the weather in Massachusetts.',
+        option: ['colder than', 'cold as', 'as colder than', 'colder as'],
+        answer: 'colder than'
     },
-
-    {
-        main: 'Grammar',
-        desc: 'Choose the correct word.',
-        question: 'Now she ___________ a nurse.',
-        option: ['is', 'was', 'are'],
-        answer: 'is'
+          {
+        main: 'PART 1: WRITING SKILLS',
+        desc: 'Choose the correct answer for each question.',
+        question: 'The word very goes before ____.',
+        option: ['a noun', 'an adjective', 'a verb', 'a preposition'],
+        answer: 'an adjective'
     },
-    {
-        main: 'Grammar',
-        desc: 'Choose the correct word.',
-        question: 'Now they ___________ electricians.',
-        option: ['is', 'was', 'are'],
-        answer: 'are'
+         {
+        main: 'PART 1: WRITING SKILLS',
+        desc: 'Choose the correct answer for each question.',
+        question: 'The word tooat the end of a sentence is similar in meaning to ____.',
+        option: ['a lot', 'not', 'also', 'already'],
+        answer: 'already'
     },
-    {
-        main: 'Grammar',
-        desc: 'Choose the correct word.',
-        question: 'They ___________ students before. ',
-        option: ['were', 'was', 'are'],
-        answer: 'were'
+          {
+        main: 'PART 1: WRITING SKILLS',
+        desc: 'Choose the correct answer for each question.',
+        question: 'The word tooat the end of a sentence is similar in meaning to ____.',
+        option: ['a lot', 'not', 'also', 'already'],
+        answer: 'also'
     },
-    {
-        main: 'Grammar',
-        desc: 'Choose the correct word.',
-        question: 'He ___________ a construction worker before.',
-        option: ['were', 'was', 'are'],
-        answer: 'was'
+        
+          {
+        main: 'PART 1: WRITING SKILLS',
+        desc: 'Choose the correct answer for each question.',
+        question: 'Gillette became ____his mother, who wrote a cookbook.',
+        option: ['as famous than', 'more famous than', 'famouser than', 'more famous as'],
+        answer: 'more famous than'
     },
-
-    {
-        main: 'Grammar',
-        desc: 'Choose the correct word.',
-        question: 'Now he ___________ a teacher.',
-        option: ['were', 'is', 'are'],
-        answer: 'is'
+         {
+        main: 'PART 1: WRITING SKILLS',
+        desc: 'Choose the correct answer for each question.',
+        question: 'Washing your own clothes is ____ taking them to the Laundromat.',
+        option: ['not so convenient as', 'not as convenient than', 'not as convenient as', 'more convenient as'],
+        answer: 'not as convenient as'
     },
-    {
-        main: 'Grammar',
-        desc: 'Choose the correct verb in the past tense.',
-        question: 'Sam ____________________ breakfast this morning.',
-        option: [
-            'make',
-            'makes',
-            'made'
-        ],
-        answer: 'made'
+        {
+        main: 'PART 1: WRITING SKILLS',
+        desc: 'Choose the correct answer for each question.',
+        question: 'If you say, “I’m too tall,” you mean ____.',
+        option: ['that you want to be taller', 'that you think you are extremely tall', 'that you think you are short', 'that you want to be shorter'],
+        answer: 'that you want to be shorter'
     },
-                      {
-        main: 'Grammar',
-        desc: 'Choose the correct verb in the past tense.',
-        question: 'She ____________________ home late last night.',
-        option: [
-            'get',
-            'got',
-            'gets'
-        ],
-        answer: 'got'
+         {
+        main: 'PART 1: WRITING SKILLS',
+        desc: 'Choose the correct answer for each question.',
+        question: 'Terry just ran a 10-kilometer race. He is ____ tired.',
+        option: ['too', 'very','very much', 'too much'],
+        answer: 'very'
     },
-                      {
-        main: 'Grammar',
-        desc: 'Choose the correct verb in the past tense.',
-        question: 'He ____________________ the floor last week.',
-        option: [
-            'sweep',
-            'swept',
-            'sweeps'
-        ],
-        answer: 'swept'
+         {
+        main: 'PART 1: WRITING SKILLS',
+        desc: 'Choose the correct answer for each question.',
+        question: 'She left ____.',
+        option: ['early, too', 'too, early','early too', 'early very'],
+        answer: 'early, too'
     },
-                       {
-        main: 'Grammar',
-        desc: 'Choose the correct verb in the past tense.',
-        question: 'Sheila ____________________ the grass yesterday',
-        option: [
-            'cut',
-            'cuts',
-            'cutting'
-        ],
-        answer: 'cut'
+        {
+        main: 'PART 1: WRITING SKILLS',
+        desc: 'Choose the correct answer for each question.',
+        question: 'That dog is really large. It’s almost ____a horse.',
+        option: ['as big', 'as big the','bigger as', 'as big as'],
+        answer: 'as big as'
     },
-                      {
-        main: 'Grammar',
-        desc: 'Choose the correct verb in the past tense.',
-        question: 'They ____________________ the laundry last night.',
-        option: [
-            'do',
-            'doing',
-            'did'
-        ],
-        answer: 'did'
+           {
+        main: 'Refer to the reading “Chocolate.” For each statement, answer True or False.',
+        desc: 'Chocolate When you think of chocolate, you probably think of something small, hard, and sweet. But for most of its long history, chocolate was a drink and not sweet at all. We don’t know when people first started making chocolate. It was a long time ago in Central America. The Aztecs of Mexico certainly knew about chocolate. They made it into a drink. They called the drink xocoatl. This is where the word chocolate comes from.When the Spanish came to Mexico in the sixteenth century, they drank xocoatl. They did not like it. They took it back to Spain with them. The Spanish then added sugar to the drink to make it sweet. They also made the drink hot. This drink became very popular in Europe. People added different things like eggs to the chocolate drink. But everybody’s favorite was hot chocolate in milk.There was still no hard chocolate until about 1850. Then a British man, Joseph Fry, was able to make the first chocolate bar. By 1868, you could buy boxes of chocolates in England. They were made by a small company called Cadbury. Soon after that, two men in Switzerland mixed milk with hard chocolate. Milk chocolates soon became a favorite all over the world. Is chocolate good for you? Today, there is good news for chocolate lovers. Scientists say that darkchocolate is very good for you. Of course, like anything else, you must not eat too much of it. Chocolate gives you energy and has vitamins to keep your body healthy. A small amount of dark chocolate every day is even good for your heart.The Aztecs believed that chocolate made you intelligent. In Europe in the seventeenth century, people believed that chocolate could make you fall in love. Who was right? The Aztecs or the Europeans? Scientists have found that chocolate has a special chemical in it called phenylethylamine. This is the same chemical that the body makes when a person is in love. So the Europeans were right. And does eating chocolate make you more intelligent? Unfortunately, no. The Aztecs were wrong',
+        question: 'People today usually think of chocolate as something small, hard, and sweet.',
+        option: ['T', 'F','', ''],
+        answer: 'T'
     },
-    {
-        main: 'Grammar',
-        desc: 'Choose the correct answers.',
-        question: 'Were you a waiter? ______',
-        option: [
-            'Yes, I was.',
-            'I went to a museum.',
-            ' I’m going to go swimming.'
-        ],
-        answer: 'Yes, I was.'
+          {
+        main: 'Refer to the reading “Chocolate.” For each statement, answer True or False.',
+        desc: 'Follow the reading',
+        question: 'The Aztecs drank chocolate; they did not eat it.',
+        option: ['T', 'F','', ''],
+        answer: 'T'
     },
-    {
-        main: 'Grammar',
-        desc: 'Choose the correct answers.',
-        question: 'What can you do? ______',
-        option: [
-            'I\’m going to go swimming.',
-            'No, I can\’t.',
-            'I can use a computer.'
-        ],
-        answer: 'I can use a computer.'
+        {
+        main: 'Refer to the reading “Chocolate.” For each statement, answer True or False.',
+        desc: 'Follow the reading',
+        question: 'Early chocolate was dark and bitter.',
+        option: ['T', 'F','', ''],
+        answer: 'T'
     },
-    {
-        main: 'Grammar',
-        desc: 'Choose the correct answers.',
-        question: 'What did you do yesterday? ______',
-        option: [
-            'I went to a museum.',
-            ' I\’m going to go swimming.',
-            'No, I can\’t.'
-        ],
-        answer: 'I went to a museum.'
+        {
+        main: 'Refer to the reading “Chocolate.” For each statement, answer True or False.',
+        desc: 'Follow the reading',
+        question: 'The old Spanish word for chocolate is xocoatl.',
+        option: ['T', 'F','', ''],
+        answer: 'F'
     },
-    {
-        main: 'Grammar',
-        desc: 'Choose the correct answers.',
-        question: 'What are you going to do today? ______',
-        option: [
-            ' I went to a museum.',
-            'I’m going to go swimming.',
-            'No, I can\’t.'
-        ],
-        answer: 'I’m going to go swimming.'
+         {
+        main: 'Refer to the reading “Chocolate.” For each statement, answer True or False.',
+        desc: 'Follow the reading',
+        question: 'The Spanish tasted chocolate in Central America and took it back to Europe, where it became popular.',
+        option: ['T', 'F','', ''],
+        answer: 'T'
     },
-                    
-    {
-        main: 'Grammar',
-        desc: 'Choose the correct answers.',
-        question: 'Can you make dinner? ______',
-        option: [
-            'I went to a museum.',
-            ' I\’m going to go swimming.',
-            'No, I can\’t.'
-        ],
-        answer: 'No, I can\’t.'
+         {
+        main: 'Refer to the reading “Chocolate.” For each statement, answer True or False.',
+        desc: 'Follow the reading',
+        question: 'In 1850, Joseph Fry produced the first box of chocolates in England.',
+        option: ['T', 'F','', ''],
+        answer: 'F'
     },
+          {
+        main: 'Refer to the reading “Chocolate.” For each statement, answer True or False.',
+        desc: 'Follow the reading',
+        question: 'The Swiss produced the first hard milk chocolate.',
+        option: ['T', 'F','', ''],
+        answer: 'T'
+    },
+          {
+        main: 'Refer to the reading “Chocolate.” For each statement, answer True or False.',
+        desc: 'Follow the reading',
+        question: 'There are health benefits to eating small amounts of dark chocolate.',
+        option: ['T', 'F','', ''],
+        answer: 'T'
+    },
+        {
+        main: 'Refer to the reading “Chocolate.” For each statement, answer True or False.',
+        desc: 'Follow the reading',
+        question: 'The Aztecs believed that eating chocolate could make a person fall in love.',
+        option: ['T', 'F','', ''],
+        answer: 'F'
+    },
+                {
+        main: 'Refer to the reading “Chocolate.” For each statement, answer True or False.',
+        desc: 'Follow the reading',
+        question: 'Eating chocolate is good for the brain and can help your intelligence.',
+        option: ['T', 'F','', ''],
+        answer: 'F'
+    },
+         
 ]
 
 var question = document.getElementById('question');
