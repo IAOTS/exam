@@ -333,7 +333,7 @@ function send_handle() {
     let name = document.getElementById("name").value;
     if (name == "") {
         msg1.innerHTML = "لا يمكنك ترك الاسم فارغا";
-        parent.location = "indexAccessB.html?#scorecard";
+        parent.location = "index1C.html?#scorecard";
     } else {
         var win = open(`https://wa.me/${num}?text=أنا الطالب : ${name}%20كود الإختبار هو :9582${msg}_IAOTS`, 'self');
         // win.focus();
