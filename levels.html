@@ -215,65 +215,66 @@
         <button id='TwoA' class="submit">Level 2A</button>
         <button id='TwoB' class="submit">Level 2B</button>
         <button id='TwoC' class="submit">Level 2C</button>
+
     </div>
+    <script>
+        var VA = document.getElementById('VA');
+        var IntroA = document.getElementById('IntroA');
+        var AccessB = document.getElementById('accessB');
+        var OneA = document.getElementById('OneA');
+        var OneB = document.getElementById('OneB');
+        var OneC = document.getElementById('OneC');
+        var TowA = document.getElementById('TwoA');
+        var TowB = document.getElementById('TwoB');
+        var TowC = document.getElementById('TwoC');
+        VA.onclick = function() {
+            parent.location = 'homeVA.html';
 
-        <script>
-            var VA = document.getElementById('VA');
-            var IntroA = document.getElementById('IntroA');
-            var AccessB = document.getElementById('accessB');
-            var OneA = document.getElementById('OneA');
-            var OneB = document.getElementById('OneB');
-            var OneC = document.getElementById('OneC');
-            var TowA = document.getElementById('TwoA');
-            var TowB = document.getElementById('TwoB');
-            var TowC = document.getElementById('TwoC');
-            VA.onclick = function() {
-                parent.location = 'homeVA.html';
+        }
+        IntroA.onclick = function() {
+            parent.location = 'homeIntroA.html';
 
-            }   IntroA.onclick = function() {
-                parent.location = 'homeIntroA.html';
+        }
+        AccessB.onclick = function() {
+            parent.location = 'homeAccessB.html';
 
-            }
-               AccessB.onclick = function() {
-                parent.location = 'homeAccessB.html';
+        }
+        OneA.onclick = function() {
+            parent.location = 'home1A.html';
 
-            }
-            OneA.onclick = function() {
-                parent.location = 'home1A.html';
+        }
+        OneB.onclick = function() {
+            parent.location = 'home1B.html';
 
-            }
-               OneB.onclick = function() {
-                parent.location = 'home1B.html';
+        }
+        OneC.onclick = function() {
+            parent.location = 'home1C.html';
 
-            }
-               OneC.onclick = function() {
-                parent.location = 'home1C.html';
+        }
+        TowA.onclick = function() {
+            parent.location = 'home2A.html';
 
-            }
-            TowA.onclick = function() {
-                parent.location = 'home2A.html';
+        }
+        TowB.onclick = function() {
+            parent.location = 'home2B.html';
 
-            }
-               TowB.onclick = function() {
-                parent.location = 'home2B.html';
+        }
 
-            }
-            
-               TowC.onclick = function() {
-                parent.location = 'home2C.html';
+        TowC.onclick = function() {
+            parent.location = 'home2C.html';
 
-            }
-            document.querySelector('#sun').onclick = () => {
-                document.querySelector('.container').classList.add('dark');
-                document.querySelector('#sun').style.display = 'none';
-                document.querySelector('#moon').style.display = 'block';
-            }
-            document.querySelector('#moon').onclick = () => {
-                document.querySelector('.container').classList.remove('dark');
-                document.querySelector('#sun').style.display = 'block';
-                document.querySelector('#moon').style.display = 'none';
-            }
-        </script>
+        }
+        document.querySelector('#sun').onclick = () => {
+            document.querySelector('.container').classList.add('dark');
+            document.querySelector('#sun').style.display = 'none';
+            document.querySelector('#moon').style.display = 'block';
+        }
+        document.querySelector('#moon').onclick = () => {
+            document.querySelector('.container').classList.remove('dark');
+            document.querySelector('#sun').style.display = 'block';
+            document.querySelector('#moon').style.display = 'none';
+        }
+    </script>
 </body>
 
 </html>
