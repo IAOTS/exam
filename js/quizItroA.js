@@ -74,7 +74,7 @@ var questionBank = [{
     {
         main: 'Grammar',
         desc: 'Choose the correct possessives.',
-        question: 'I',
+        question: '....I....',
         option: ['My', 'His', 'Her'],
         answer: 'My'
 
@@ -82,7 +82,7 @@ var questionBank = [{
                        {
         main: 'Grammar',
         desc: 'Choose the correct possessives.',
-        question: 'You',
+        question: '....You....',
         option: ['You', 'Your', 'His'],
         answer: 'Your'
 
@@ -90,7 +90,7 @@ var questionBank = [{
                           {
         main: 'Grammar',
         desc: 'Choose the correct possessives.',
-        question: 'He',
+        question: '....He....',
         option: ['My', 'His', 'Her'],
         answer: 'His'
 
@@ -99,7 +99,7 @@ var questionBank = [{
                           {
         main: 'Grammar',
         desc: 'Choose the correct possessives.',
-        question: 'SHe',
+        question: '....She....',
         option: ['My', 'His', 'Her'],
         answer: 'Her'
 
@@ -107,7 +107,7 @@ var questionBank = [{
                            {
         main: 'Grammar',
         desc: 'Choose the correct possessives.',
-        question: 'We',
+        question: '....We....',
         option: ['Our', 'We', 'Us'],
         answer: 'Our'
 
