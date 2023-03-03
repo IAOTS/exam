@@ -6,227 +6,232 @@ var questionBank = [{
 
 
         main: 'Listening',
-        desc: 'Listen. Circle the letter of the words you hear.',
-        question: 'Listening(1)',
-        option: ['7:20', '11:30', '10:30'],
-        answer: '11:30'
+        desc: 'Julia is telling Dan about her new house. Listen and circle the correct words.',
+        question: 'There are two .....',
+        option: ['bedrooms', 'bathrooms', 'closets'],
+        answer: 'bathrooms'
     },
     {
         main: 'Listening',
-        desc: 'Listen. Circle the letter of the words you hear.',
-        question: 'Listening(2)',
-        option: ['$15.99', '$16.95', '$50.99'],
-        answer: '$50.99'
+        desc: 'Julia is telling Dan about her new house. Listen and circle the correct words.',
+        question: 'There are some chairs in the....',
+        option: ['dining room', 'kitchen', 'living room'],
+        answer: 'living room'
     },
     {
         main: 'Listening',
-        desc: 'Listen. Circle the letter of the words you hear.',
-        question: 'Listening(3)',
-        option: ['eating', 'meat', 'eggs'],
-        answer: 'meat'
+        desc: 'Julia is telling Dan about her new house. Listen and circle the correct words.',
+        question: 'Julia needs a.......for the kitchen.',
+        option: ['microwave oven', 'refrigerator', 'stove'],
+        answer: 'microwave oven'
     },
 
     {
-        main: 'Listening',      
-        desc: 'Listen. Circle the letter of the words you hear.',
-        question: 'Listening(4)',
-        option: ['carpenter', 'electrician', 'construction worker'],
-        answer: 'electrician'
-    },
-                        {
-        main: 'Listening',      
-        desc: 'Listen. Circle the letter of the words you hear.',
-        question: 'Listening(5)',
-        option: ['camping', 'hiking', 'biking'],
-        answer: 'camping'
-    },
-    {
-        main: 'Grammar',
-        desc: 'Choose the correct word.',
-        question: 'We have a vacation ____________________  December.',
-        option: ['in', 'on', 'at'],
-        answer: 'in'
-    },
-    {
-        main: 'Grammar',
-        desc: 'Choose the correct word.',
-        question: '____________________  there any bottles of water?',
+        main: 'Grammar',      
+        desc: 'Complete the conversation. Choose the correct form of be.',
+        question: 'a. Jack:Excuse me. _________________ you Isabel? ',
         option: ['Are', 'Is', 'Am'],
         answer: 'Are'
-
+    },
+                        {
+        main: 'Grammar',      
+        desc: 'Complete the conversation. Choose the correct form of be.',
+        question: 'b. Isabel:Yes, I _________________ .',
+        option: ['am', 'is', 'am not'],
+        answer: 'am'
+    },
+    {
+        main: 'Grammar',      
+        desc: 'Complete the conversation. Choose the correct form of be.',
+        question: 'c. Jack:_________________ your family from Mexico?',
+        option: ['Is', 'Are', 'Am'],
+        answer: 'Is'
     },
     {
         main: 'Grammar',
-        desc: 'Choose the correct word.',
-        question: 'What ____________________ she do in the afternoon?',
-        option: ['do', 'does', 'are'],
-        answer: 'does'
-
-    },
-    {
-        main: 'Grammar',
-        desc: 'Choose the correct word.',
-        question: 'They ____________________ teachers before.',
-        option: ['was', 'were', 'is'],
-        answer: 'were'
-
-    },
-    {
-        main: 'Grammar',
-        desc: 'Choose the correct word.',
-        question: '____________________ going to go to a party tomorrow.',
-        option: ['We', 'We\'re', 'We is'],
-        answer: 'We\'re'
-
-    },
-
-    {
-        main: 'Grammar',
-        desc: 'Choose the correct word.',
-        question: 'Now she ___________ a nurse.',
-        option: ['is', 'was', 'are'],
-        answer: 'is'
-    },
-    {
-        main: 'Grammar',
-        desc: 'Choose the correct word.',
-        question: 'Now they ___________ electricians.',
-        option: ['is', 'was', 'are'],
+        desc: 'Complete the conversation. Choose the correct form of be.',
+        question: 'd. Isabel:No. We _________________ from Brazil.',
+        option: ['are', 'is', 'am'],
         answer: 'are'
-    },
-    {
-        main: 'Grammar',
-        desc: 'Choose the correct word.',
-        question: 'They ___________ students before. ',
-        option: ['were', 'was', 'are'],
-        answer: 'were'
-    },
-    {
-        main: 'Grammar',
-        desc: 'Choose the correct word.',
-        question: 'He ___________ a construction worker before.',
-        option: ['were', 'was', 'are'],
-        answer: 'was'
-    },
 
+    },
     {
         main: 'Grammar',
-        desc: 'Choose the correct word.',
-        question: 'Now he ___________ a teacher.',
-        option: ['were', 'is', 'are'],
+        desc: 'Complete the conversation. Choose the correct form of be.',
+        question: 'e. Jack:What _________________ your first language, Isabel?',
+        option: ['is', 'are', 'am'],
         answer: 'is'
+
     },
     {
         main: 'Grammar',
-        desc: 'Choose the correct verb in the past tense.',
-        question: 'Sam ____________________ breakfast this morning.',
-        option: [
-            'make',
-            'makes',
-            'made'
-        ],
-        answer: 'made'
+        desc: 'Complete the conversation. Choose the correct form of be.',
+        question: 'f. Isabel: It _________________ Portuguese.',
+        option: ['am', 'are', 'is'],
+        answer: 'is'
+
     },
-                      {
+    {
         main: 'Grammar',
-        desc: 'Choose the correct verb in the past tense.',
-        question: 'She ____________________ home late last night.',
-        option: [
-            'get',
-            'got',
-            'gets'
-        ],
-        answer: 'got'
-    },
-                      {
-        main: 'Grammar',
-        desc: 'Choose the correct verb in the past tense.',
-        question: 'He ____________________ the floor last week.',
-        option: [
-            'sweep',
-            'swept',
-            'sweeps'
-        ],
-        answer: 'swept'
+        desc: 'Choose the correct possessives.',
+        question: 'I',
+        option: ['My', 'His', 'Her'],
+        answer: 'My'
+
     },
                        {
         main: 'Grammar',
-        desc: 'Choose the correct verb in the past tense.',
-        question: 'Sheila ____________________ the grass yesterday',
-        option: [
-            'cut',
-            'cuts',
-            'cutting'
-        ],
-        answer: 'cut'
+        desc: 'Choose the correct possessives.',
+        question: 'You',
+        option: ['You', 'Your', 'His'],
+        answer: 'Your'
+
+    },
+                          {
+        main: 'Grammar',
+        desc: 'Choose the correct possessives.',
+        question: 'He',
+        option: ['My', 'His', 'Her'],
+        answer: 'His'
+
+    },
+                    
+                          {
+        main: 'Grammar',
+        desc: 'Choose the correct possessives.',
+        question: 'SHe',
+        option: ['My', 'His', 'Her'],
+        answer: 'Her'
+
+    },
+                           {
+        main: 'Grammar',
+        desc: 'Choose the correct possessives.',
+        question: 'We',
+        option: ['Our', 'We', 'Us'],
+        answer: 'Our'
+
+    },
+                              {
+        main: 'Grammar',
+        desc: 'Choose the correct words to complete the sentences.',
+        question: 'Robert is handsome. He\’s very _________ .',
+        option: ['friendly', 'good-looking', 'serious'],
+        answer: 'good-looking'
+
+    },    {
+        main: 'Grammar',
+        desc: 'Choose the correct words to complete the sentences.',
+        question: 'Anne works in a store, and she handles money. She\’s a _________ .',
+        option: ['cashier', 'pilot', 'musician'],
+        answer: 'cashier'
+
+    },
+                       {
+        main: 'Grammar',
+        desc: 'Choose the correct words to complete the sentences.',
+        question: 'Mia doesn\’t like her job. It\’s very _________ .',
+        option: ['interesting', 'exciting', 'boring'],
+        answer: 'boring'
+    },
+    {
+        main: 'Grammar',
+        desc: 'Choose the correct words to complete the sentences.',
+        question: 'Mario is Celia\’s father. Celia is Mario\’s _________ .',
+        option: ['wife', 'daughter', 'sister'],
+        answer: 'daughter'
     },
                       {
         main: 'Grammar',
-        desc: 'Choose the correct verb in the past tense.',
-        question: 'They ____________________ the laundry last night.',
-        option: [
-            'do',
-            'doing',
-            'did'
-        ],
-        answer: 'did'
+        desc: 'Choose the correct words to complete the sentences.',
+        question: 'It\’s 10:00 A.M., and Zachary is sleeping. He gets up late _________ Saturdays.',
+        option: ['at', 'on', 'in'],
+        answer: 'on'
+    },
+                        {
+        main: 'Grammar',
+        desc: 'Choose the correct words.',
+        question: 'It\’s cold today, _______________ it\’s very windy.',
+        option: ['and', 'but', 'so'],
+        answer: 'and'
     },
     {
         main: 'Grammar',
-        desc: 'Choose the correct answers.',
-        question: 'Were you a waiter? ______',
-        option: [
-            'Yes, I was.',
-            'I went to a museum.',
-            ' I’m going to go swimming.'
-        ],
-        answer: 'Yes, I was.'
+        desc: 'Choose the correct words.',
+        question: 'It\’s noon, ________ we\’re eating lunch.',
+        option: ['and', 'but', 'so'],
+        answer: 'so'
     },
     {
         main: 'Grammar',
-        desc: 'Choose the correct answers.',
-        question: 'What can you do? ______',
+        desc: 'Choose the correct words.',
+        question: 'John is wearing shoes, ________ he isn\’t wearing socks.',
+        option: ['and', 'but', 'so'],
+        answer: 'but'
+    },
+                      {
+        main: 'Grammar',
+        desc: 'Choose the correct words.',
+        question: 'Jay is reading a nice story, ______________________ he is not listening to music.',
+        option: ['and', 'but', 'so'],
+        answer: 'but'
+    },
+                    {
+        main: 'Grammar',
+        desc: 'Choose the correct responses',
+        question: 'A: Have a good evening. B: __________',
         option: [
-            'I\’m going to go swimming.',
-            'No, I can\’t.',
-            'I can use a computer.'
+            'It\’s nice to meet you.',
+            'Not bad, thanks.',
+            'Thanks. Good night, Ashley.'
         ],
-        answer: 'I can use a computer.'
+        answer: 'Thanks. Good night, Ashley.'
     },
     {
         main: 'Grammar',
-        desc: 'Choose the correct answers.',
-        question: 'What did you do yesterday? ______',
+        desc: 'Choose the correct responses',
+        question: 'A: What\’s Marta like? B: __________',
         option: [
-            'I went to a museum.',
-            ' I\’m going to go swimming.',
-            'No, I can\’t.'
+            'She\’s from Mexico.',
+            'She\’s very nice.',
+            'She\’s eighteen.'
         ],
-        answer: 'I went to a museum.'
+        answer: 'She\’s very nice.'
     },
     {
         main: 'Grammar',
-        desc: 'Choose the correct answers.',
-        question: 'What are you going to do today? ______',
+        desc: 'Choose the correct responses',
+        question: 'A: I need a pen. B: __________',
         option: [
-            ' I went to a museum.',
-            'I’m going to go swimming.',
-            'No, I can\’t.'
+            'Let me see. Yes, it is.',
+            'No problem. Thank you.',
+            'There\’s a pen on the desk.'
         ],
-        answer: 'I’m going to go swimming.'
+        answer: 'There’s a pen on the desk.'
+    },
+    {
+        main: 'Grammar',
+        desc: 'Choose the correct responses',
+        question: 'A: When do you study?        B: __________ ',
+        option: [
+            'Yes, a lot.',
+            'At school.',
+            'In the evening.'
+        ],
+        answer: 'In the evening.'
+    },
+    {
+        main: 'Grammar',
+        desc: 'Choose the correct responses',
+        question: 'A: Where are my keys? B: __________ ',
+        option: [
+            'They\’re under your hat.',
+            'It\’s on your briefcase.',
+            'There are three.'
+        ],
+        answer: 'They\’re under your hat.'
     },
                     
-    {
-        main: 'Grammar',
-        desc: 'Choose the correct answers.',
-        question: 'Can you make dinner? ______',
-        option: [
-            'I went to a museum.',
-            ' I\’m going to go swimming.',
-            'No, I can\’t.'
-        ],
-        answer: 'No, I can\’t.'
-    },
 ]
 
 var question = document.getElementById('question');
