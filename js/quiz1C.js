@@ -241,7 +241,7 @@ function displayQuestion() {
     desc.innerHTML = '' + questionBank[i].desc;
     question.innerHTML = 'Q.' + (i + 1) + ' ' + questionBank[i].question;
     if (i === 20) {
-        option3.style.display = "none";
+        option2.style.display = "none";
         option3.style.display = "none";
 
     }
@@ -281,8 +281,8 @@ function nextQuestion() {
 function previousQuestion() {
     if (i <= questionBank.length - 1) {
         i = i - 1;
-        if (i <= 20) {
-  option3.style.display = "block";
+        if (i < 20) {
+  option2.style.display = "block";
         option3.style.display = "block";        }
         displayQuestion();
     }
